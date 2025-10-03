@@ -4,3 +4,11 @@ res://lessons_reference/video_16/player/projectile/projectile.tscn
 res://lessons_reference/video_16/player/bullet_3d.tscn
 res://player/projectile/projectile.gdshader
 res://lessons_reference/video_16/mob/mob.tscn
+res://mob/bat/robot_01.tscn
+res://mob/bat/robot01_material_3d.tres
+res://mob/bat/robot_01.gd
+res://mob/robot_01.gd
+res://mob/robot_01.tscn
+res://lessons_reference/video_16/mob/bat/bat_material.tres
+res://lessons_reference/video_16/mob/bat/bat_model.tscn
+res://lessons_reference/video_16/mob/spawner_3d.tscn

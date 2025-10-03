@@ -1,12 +1,22 @@
-[gd_scene load_steps=3 format=3 uid="uid://bpcn5j0ngr8cd"]
+[gd_scene load_steps=4 format=3 uid="uid://bpcn5j0ngr8cd"]
 
-[ext_resource type="PackedScene" uid="uid://ce58erj8mkir3" path="res://mob/bat/robot01.glb" id="1_v3a1n"]
+[ext_resource type="Script" uid="uid://cf2bs17a08wde" path="res://mob/robot_01.gd" id="1_j81t7"]
+[ext_resource type="PackedScene" uid="uid://c4nxepsffu3mg" path="res://mob/bat/robot_01.tscn" id="2_1uo5p"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_j81t7"]
 
 [node name="robot01" type="RigidBody3D"]
-
-[node name="robot01" parent="." instance=ExtResource("1_v3a1n")]
+script = ExtResource("1_j81t7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_j81t7")
+
+[node name="robot01" parent="." instance=ExtResource("2_1uo5p")]
+unique_name_in_owner = true
+
+[node name="Timer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 2.0
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
