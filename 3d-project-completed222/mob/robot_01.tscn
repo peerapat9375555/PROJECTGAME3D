@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpcn5j0ngr8cd"]
+
+[ext_resource type="PackedScene" uid="uid://ce58erj8mkir3" path="res://mob/bat/robot01.glb" id="1_v3a1n"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_j81t7"]
+
+[node name="robot01" type="RigidBody3D"]
+
+[node name="robot01" parent="." instance=ExtResource("1_v3a1n")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_j81t7")
