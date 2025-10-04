@@ -13,6 +13,11 @@ var health = 3
 @onready var hurt_sound = %HurtSound
 @onready var ko_sound = %KOSound
 
+func _ready():
+	# 🔒 ล็อกการหมุน X และ Z ตอนยังมีชีวิต
+	axis_lock_angular_x = true
+	axis_lock_angular_y = true
+	axis_lock_angular_z = true
 
 func _physics_process(delta):
 	var direction = global_position.direction_to(player.global_position)
@@ -31,9 +36,14 @@ func take_damage():
 	hurt_sound.play()
 
 	if health == 0:
-		ko_sound.play()
+		ko_sound.play() 
 
 		set_physics_process(false)
+		
+		axis_lock_angular_x = false
+		axis_lock_angular_y = false
+		axis_lock_angular_z = false
+		
 		gravity_scale = 1.0
 		var direction = player.global_position.direction_to(global_position)
 		var random_upward_force = Vector3.UP * randf() * 5.0

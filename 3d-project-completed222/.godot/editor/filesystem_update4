@@ -11,3 +11,4 @@ res://mob/robot_01.tscn
 res://lessons_reference/video_16/mob/bat/bat_model.tscn
 res://lessons_reference/video_16/mob/spawner_3d.tscn
 res://mob/robot_01.gd
+res://lessons_reference/video_16/mob/mob.gd
