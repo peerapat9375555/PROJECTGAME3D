@@ -1,15 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1759579804
+::res://::1759580109
 break_robot-61522.mp3::AudioStreamMP3/AudioStreamMP3::3053844303817820316::1759576532::1759578961::1::::<><><>0<>0<>191600c89a5e39738db0b8e4902505ad<>res://.godot/imported/break_robot-61522.mp3-bbaa68d13396debb18ab78af4c02ad0e.mp3str::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::6564268947468103023::1759576521::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1759576521::0::1::::<><><>0<>0<><>::
 Floor Tile.glb::PackedScene/PackedScene::1203139182743560094::1759578915::1759578965::1::::<><><>0<>0<>5d62552289edd2cf04b8294e00463d09<>res://.godot/imported/Floor Tile.glb-af3369539a7bd77017ac4931711a28ab.scn::
 Floor.glb::PackedScene/PackedScene::482701371020846289::1759578915::1759578965::1::::<><><>0<>0<>ab0596a94b1a43db4a3e936f886230ee<>res://.godot/imported/Floor.glb-6a78a70fd1587aa56b116e0c01063c1d.scn::
+Flying saucer.glb::PackedScene::6487710382310547995::1759580109::1759580110::1::::<><><>0<>0<>027b7d0d0db61f50e50027f1242d3786<>res://.godot/imported/Flying saucer.glb-6a194f1be2727a1a91e6f899e28f36bc.scn::uid://deo4xjp7sossf::::res://Flying saucer_fying_saucerSurface_Color.png
 hazy_nebulae_1.png::CompressedTexture2D::8776380568006698836::1759579374::1759579527::1::::<><><>0<>0<>a0914c72457a53427365fed504c20de8<>res://.godot/imported/hazy_nebulae_1.png-35468c6dc0fdde355e32b711d5d41412.s3tc.ctex::
 icon.png::CompressedTexture2D/CompressedTexture2D::7281554251943132898::1759576521::1759578962::1::::<><><>0<>0<>5368800712248f964f811b1599048859<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 Large Building (1).glb::PackedScene/PackedScene::3002072651278565283::1759578915::1759578966::1::::<><><>0<>0<>900c3fa8b91d442952e7b95fcbfaa594<>res://.godot/imported/Large Building (1).glb-1a9709d9002b28773d701e624c0a145f.scn::
 Large Building.glb::PackedScene/PackedScene::6686492456944149584::1759578915::1759578966::1::::<><><>0<>0<>dbe49fe871faf49f21b7d99d2d2fda60<>res://.godot/imported/Large Building.glb-0e165173de7a699fc2fa6703be9d400e.scn::
 Locomotion-Library.res::AnimationLibrary/AnimationLibrary::8724105843146401664::1759576532::0::1::::<><><>0<>0<><>::
+Flying saucer_fying_saucerSurface_Color.png::CompressedTexture2D::7470721077599086465::1759580110::1759580110::1::::<><><>0<>0<>29b5bc119bc2cfb7acb3b0f1c2ee3982<>res://.godot/imported/Flying saucer_fying_saucerSurface_Color.png-bfe3b1b3b95b0813e61d9731ec3cfbaf.s3tc.ctex::
 robot-taking-damage-98742.mp3::AudioStreamMP3/AudioStreamMP3::2484474930294325975::1759576532::1759578961::1::::<><><>0<>0<>357bd00342ade09e4a86caf20d0c95ca<>res://.godot/imported/robot-taking-damage-98742.mp3-e3075bd19f566523f8a3268595cfd689.mp3str::
 Spaceship.glb::PackedScene::6795311726385626246::1759579804::1759579805::1::::<><><>0<>0<>cdbc9ffb905a670641bb5d47fe5fb413<>res://.godot/imported/Spaceship.glb-cc6dd69771df30716997f1548b800724.scn::
 test.tscn::PackedScene::3472689140747583226::1759579692::0::1::::<><><>0<>0<><>::uid://bpqvmc7qt8xut::::res://lessons_reference/video_16/game.tscn
