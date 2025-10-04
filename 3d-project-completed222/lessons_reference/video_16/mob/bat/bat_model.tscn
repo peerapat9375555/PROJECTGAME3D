@@ -197,19 +197,19 @@ node_connections = [&"OneShot", 0, &"Idle", &"OneShot", 1, &"Hurt", &"output", 0
 script = ExtResource("1_ppjak")
 
 [node name="Skeleton3D" parent="Armature" index="0"]
-bones/0/position = Vector3(0, -0.0074, 0)
-bones/1/rotation = Quaternion(-0.0286549, 0.188485, -0.686718, 0.701478)
-bones/2/rotation = Quaternion(-0.0560155, -0.016041, 0.274838, 0.959723)
-bones/3/rotation = Quaternion(0.0412136, 0.059985, 0.264753, 0.961566)
-bones/4/rotation = Quaternion(-0.0286549, -0.188485, 0.686718, 0.701478)
-bones/5/rotation = Quaternion(-0.0560155, 0.016041, -0.274838, 0.959723)
-bones/6/rotation = Quaternion(0.0412136, -0.059985, -0.264753, 0.961566)
+bones/0/position = Vector3(0, 0.0165603, 0)
+bones/1/rotation = Quaternion(0.217435, -0.022529, -0.597382, 0.771589)
+bones/2/rotation = Quaternion(0.118101, 0.0545732, 0.415539, 0.900223)
+bones/3/rotation = Quaternion(0.0118, 0.054323, 0.346021, 0.936578)
+bones/4/rotation = Quaternion(0.217435, 0.022529, 0.597382, 0.771589)
+bones/5/rotation = Quaternion(0.118101, -0.0545732, -0.415539, 0.900223)
+bones/6/rotation = Quaternion(0.0118, -0.054323, -0.346021, 0.936578)
 bones/7/position = Vector3(0.130992, -0.227392, -0.0878515)
 bones/7/rotation = Quaternion(0.261968, 0.0834552, 0.265751, 0.924005)
-bones/8/rotation = Quaternion(3.84334e-08, 0.690882, 0.722967, 1.64515e-08)
+bones/8/rotation = Quaternion(2.66701e-08, 0.586606, 0.809873, 2.2089e-08)
 bones/10/position = Vector3(-0.130992, -0.227392, -0.0878515)
 bones/10/rotation = Quaternion(0.261968, -0.0834552, -0.265751, 0.924005)
-bones/11/rotation = Quaternion(2.54238e-08, 0.690882, 0.722967, 3.63776e-08)
+bones/11/rotation = Quaternion(2.85612e-08, 0.586606, 0.809873, 4.11615e-08)
 
 [node name="bat" parent="Armature/Skeleton3D" index="0"]
 surface_material_override/0 = ExtResource("3_uqgpt")

@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bpcn5j0ngr8cd"]
+[gd_scene load_steps=6 format=3 uid="uid://bpcn5j0ngr8cd"]
 
 [ext_resource type="Script" uid="uid://cf2bs17a08wde" path="res://mob/robot_01.gd" id="1_j81t7"]
 [ext_resource type="PackedScene" uid="uid://c4nxepsffu3mg" path="res://mob/bat/robot_01.tscn" id="2_1uo5p"]
+[ext_resource type="AudioStream" uid="uid://bbnq66vaai8n0" path="res://robot-taking-damage-98742.mp3" id="3_bn4yk"]
+[ext_resource type="AudioStream" uid="uid://bjrkmtfjyfwq3" path="res://break_robot-61522.mp3" id="4_078ii"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_j81t7"]
 
@@ -18,5 +20,13 @@ unique_name_in_owner = true
 unique_name_in_owner = true
 wait_time = 2.0
 one_shot = true
+
+[node name="HurtSound" type="AudioStreamPlayer3D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("3_bn4yk")
+
+[node name="KOSound" type="AudioStreamPlayer3D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("4_078ii")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

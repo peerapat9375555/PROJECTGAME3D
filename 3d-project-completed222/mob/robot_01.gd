@@ -8,9 +8,10 @@ var health = 3
 @onready var robot_01 = %robot01
 @onready var timer = %Timer
 
+@onready var hurt_sound: AudioStreamPlayer3D = %HurtSound
+@onready var ko_sound: AudioStreamPlayer3D = %KOSound
+
 @onready var player = get_node("/root/Game/Player")
-
-
 
 
 func _physics_process(delta):
@@ -26,9 +27,12 @@ func take_damage():
 	robot_01.hurt()
 	
 	health -= 1
+	hurt_sound.pitch_scale = randfn(1.0, 0.1)
+	hurt_sound.play()
 	
 	if health == 0:
-
+		ko_sound.play()
+		
 		set_physics_process(false)
 		gravity_scale = 1.0
 		var direction = player.global_position.direction_to(global_position)
