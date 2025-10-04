@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://8vhepp8ap6hu" path="res://lessons_reference/video_16/player/player.gd" id="1_g3eiy"]
 [ext_resource type="PackedScene" uid="uid://b6nrg32r2wq86" path="res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn" id="3_43sda"]
+[ext_resource type="AudioStream" uid="uid://b30ygdu1636ug" path="res://esset/char/ss2/laser-shot-ingame-230500.wav" id="3_6111q"]
 [ext_resource type="Texture2D" uid="uid://courndspfmq8n" path="res://player/reticle.png" id="3_r7as2"]
-[ext_resource type="AudioStream" uid="uid://b60djage857j5" path="res://player/gun_shoot.wav" id="4_0d82q"]
 [ext_resource type="Texture2D" uid="uid://b75s446urhg4c" path="res://esset/char/ss2/Walk Forward_0.png" id="4_6111q"]
 [ext_resource type="Texture2D" uid="uid://bhirlq4l537m2" path="res://esset/char/ss2/Walk Forward_1.png" id="5_m2rw7"]
 [ext_resource type="Texture2D" uid="uid://cm3cjoekrnu0k" path="res://esset/char/ss2/Walk Forward_3.png" id="6_q3in8"]
@@ -691,7 +691,7 @@ shape = SubResource("CapsuleShape3D_ctapl")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.925817, 1.58011, 0.653112)
+transform = Transform3D(1, 0, 0, 0, 0.910026, 0.41455, 0, -0.41455, 0.910026, 0.0356351, 1.95312, 0.753563)
 
 [node name="Timer" type="Timer" parent="."]
 unique_name_in_owner = true
@@ -718,7 +718,8 @@ expand_mode = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true
-stream = ExtResource("4_0d82q")
+stream = ExtResource("3_6111q")
+volume_db = -25.752
 max_polyphony = 4
 
 [node name="gobot" type="Node3D" parent="."]
