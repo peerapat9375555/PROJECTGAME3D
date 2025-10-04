@@ -1,11 +1,14 @@
-[gd_scene load_steps=17 format=4 uid="uid://d3kp34dihjeyd"]
+[gd_scene load_steps=20 format=4 uid="uid://d3kp34dihjeyd"]
 
 [ext_resource type="Script" uid="uid://8vhepp8ap6hu" path="res://lessons_reference/video_16/player/player.gd" id="1_g3eiy"]
+[ext_resource type="PackedScene" uid="uid://wawlsqcberu6" path="res://lessons_reference/video_16/player/bullet_3d.tscn" id="2_q3in8"]
+[ext_resource type="PackedScene" uid="uid://bbcu3rru1q6gx" path="res://lessons_reference/video_16/player/bullet_3dv2.tscn" id="3_8od10"]
 [ext_resource type="PackedScene" uid="uid://b6nrg32r2wq86" path="res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn" id="3_43sda"]
 [ext_resource type="AudioStream" uid="uid://b30ygdu1636ug" path="res://esset/char/ss2/laser-shot-ingame-230500.wav" id="3_6111q"]
 [ext_resource type="Texture2D" uid="uid://courndspfmq8n" path="res://player/reticle.png" id="3_r7as2"]
 [ext_resource type="Texture2D" uid="uid://b75s446urhg4c" path="res://esset/char/ss2/Walk Forward_0.png" id="4_6111q"]
 [ext_resource type="Texture2D" uid="uid://bhirlq4l537m2" path="res://esset/char/ss2/Walk Forward_1.png" id="5_m2rw7"]
+[ext_resource type="AudioStream" uid="uid://ci4x1dxfyp20e" path="res://esset/explosion-36210.wav" id="6_8od10"]
 [ext_resource type="Texture2D" uid="uid://cm3cjoekrnu0k" path="res://esset/char/ss2/Walk Forward_3.png" id="6_q3in8"]
 [ext_resource type="AnimationLibrary" uid="uid://cq5f8scg80skf" path="res://anima/Locomotion-Library.res" id="7_8od10"]
 [ext_resource type="AnimationLibrary" uid="uid://c0dwf3bmja0gm" path="res://esset/ShooterLib.res" id="8_djpwu"]
@@ -684,6 +687,8 @@ _data = {
 [node name="Player" type="CharacterBody3D"]
 collision_layer = 2
 script = ExtResource("1_g3eiy")
+primary_bullet_scene = ExtResource("2_q3in8")
+alt_bullet_scene = ExtResource("3_8od10")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.742761, 0)
@@ -693,10 +698,16 @@ shape = SubResource("CapsuleShape3D_ctapl")
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 0.910026, 0.41455, 0, -0.41455, 0.910026, 0.0356351, 1.95312, 0.753563)
 
-[node name="Timer" type="Timer" parent="."]
+[node name="TimerPrimary" type="Timer" parent="."]
 unique_name_in_owner = true
 process_callback = 0
 wait_time = 0.1
+one_shot = true
+
+[node name="TimerAlt" type="Timer" parent="."]
+unique_name_in_owner = true
+process_callback = 0
+wait_time = 0.5
 one_shot = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -720,6 +731,12 @@ expand_mode = 1
 unique_name_in_owner = true
 stream = ExtResource("3_6111q")
 volume_db = -35.0
+max_polyphony = 4
+
+[node name="AudioStreamPlayerAlt" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("6_8od10")
+volume_db = 3.049
 max_polyphony = 4
 
 [node name="gobot" type="Node3D" parent="."]

@@ -4,11 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhed7wblps8us"
-valid=false
+path="res://.godot/imported/Walk Forward.fbx-cca8eb6c19ad2be6035db90048f84e8b.scn"
 
 [deps]
 
 source_file="res://esset/char/ss2/Walk Forward.fbx"
+dest_files=["res://.godot/imported/Walk Forward.fbx-cca8eb6c19ad2be6035db90048f84e8b.scn"]
 
 [params]
 

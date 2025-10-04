@@ -1,24 +1,14 @@
 extends Node3D
 
 var player_score = 0
-@export var target_score: int = 10
-@export var next_level_path: String = "res://lessons_reference/video_16/testmap.tscn"
-
 @onready var label := %Label
-
 
 func increase_score():
 	player_score += 1
 	label.text = "Score: " + str(player_score)
 
-	# เช็กว่าถึงแต้มเป้าหมายหรือยัง
-	if player_score >= target_score:
-		change_to_next_level()
-
-
-func _on_kill_plane_body_entered(_body):
+func _on_kill_plane_body_entered(body):
 	get_tree().reload_current_scene.call_deferred()
-
 
 func _on_mob_spawner_3d_mob_spawned(mob):
 	mob.died.connect(func():
@@ -27,16 +17,8 @@ func _on_mob_spawner_3d_mob_spawned(mob):
 	)
 	do_poof(mob.global_position)
 
-
 func do_poof(mob_position):
 	const SMOKE_PUFF = preload("res://mob/smoke_puff/smoke_puff.tscn")
 	var poof := SMOKE_PUFF.instantiate()
 	add_child(poof)
 	poof.global_position = mob_position
-
-
-func change_to_next_level():
-	if ResourceLoader.exists(next_level_path):
-		get_tree().change_scene_to_file(next_level_path)
-	else:
-		push_error("Scene not found: " + next_level_path)

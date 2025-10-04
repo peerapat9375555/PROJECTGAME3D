@@ -8,3 +8,12 @@ res://lessons_reference/video_16/mob/mob.tscn
 res://lessons_reference/video_16/player/player.tscn
 res://test.tscn
 res://lessons_reference/video_16/testmap.tscn
+res://lessons_reference/video_16/game.gd
+res://lessons_reference/video_16/testmap.gd
+res://lessons_reference/video_16/player/bullet_3dv2.tscn
+res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn
+res://lessons_reference/video_16/player/player.gd
+res://lessons_reference/video_16/player/bullet_3_dv_2.gd
+res://lessons_reference/video_16/player/bullet_3d.gd
+res://scene/main_menu.tscn
+res://scene/main_menu.gd

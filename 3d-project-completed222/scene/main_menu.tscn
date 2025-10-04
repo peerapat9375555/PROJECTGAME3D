@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://clqsnrldaq0gk"]
+
+[ext_resource type="Script" uid="uid://crt466peiawxa" path="res://scene/main_menu.gd" id="1_hxu56"]
+[ext_resource type="Texture2D" uid="uid://bttpn1f2va0oa" path="res://mob/bat/pngtree-game-space-interstellar-image_2408883.jpg" id="2_2fwvj"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_hxu56")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+text = "BOKY"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+offset_left = -4.0
+offset_top = -19.0
+offset_right = 1750.0
+offset_bottom = 846.0
+texture = ExtResource("2_2fwvj")
+
+[node name="BtnStart" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 547.0
+offset_top = 479.0
+offset_right = 1120.0
+offset_bottom = 751.0
+theme_override_font_sizes/font_size = 100
+text = "start"

@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://gegoqnsmycr7"]
 
-[ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_nx1fn"]
+[ext_resource type="Script" uid="uid://1j75cfq0y027" path="res://lessons_reference/video_16/testmap.gd" id="1_nx1fn"]
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="2_drm4k"]
 [ext_resource type="PackedScene" uid="uid://xtl5acmpaa04" path="res://lessons_reference/video_16/mob/spawner_3d.tscn" id="3_3fpu1"]
 [ext_resource type="PackedScene" uid="uid://bpcn5j0ngr8cd" path="res://mob/robot_01.tscn" id="4_q8uyg"]

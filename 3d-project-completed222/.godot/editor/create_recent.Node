@@ -1,3 +1,11 @@
+TextureRect
+Button
+Label
+VBoxContainer
+MarginContainer
+Control
+Node2D
+Node3D
 AudioStreamPlayer3D
 Timer
 AnimationTree
