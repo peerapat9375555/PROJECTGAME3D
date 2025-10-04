@@ -11,10 +11,12 @@
 script = ExtResource("1_j81t7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 shape = SubResource("SphereShape3D_j81t7")
 
 [node name="robot01" parent="." instance=ExtResource("2_1uo5p")]
 unique_name_in_owner = true
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="Timer" type="Timer" parent="."]
 unique_name_in_owner = true
@@ -24,9 +26,11 @@ one_shot = true
 [node name="HurtSound" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("3_bn4yk")
+volume_db = -20.293
 
 [node name="KOSound" type="AudioStreamPlayer3D" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("4_078ii")
+volume_db = -24.976
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
