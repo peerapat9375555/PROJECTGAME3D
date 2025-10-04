@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://bhirlq4l537m2" path="res://esset/char/ss2/Walk Forward_1.png" id="5_m2rw7"]
 [ext_resource type="Texture2D" uid="uid://cm3cjoekrnu0k" path="res://esset/char/ss2/Walk Forward_3.png" id="6_q3in8"]
 [ext_resource type="AnimationLibrary" uid="uid://cq5f8scg80skf" path="res://anima/Locomotion-Library.res" id="7_8od10"]
-[ext_resource type="AnimationLibrary" uid="uid://c0dwf3bmja0gm" path="res://anima/ShooterLib.res" id="8_djpwu"]
+[ext_resource type="AnimationLibrary" uid="uid://c0dwf3bmja0gm" path="res://esset/ShooterLib.res" id="8_djpwu"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ctapl"]
 radius = 0.338193
