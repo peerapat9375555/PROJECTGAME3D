@@ -5,5 +5,5 @@
 [resource]
 resource_local_to_scene = true
 resource_name = "material_0"
+shading_mode = 0
 albedo_texture = ExtResource("1_fc56d")
-metallic = 1.0
