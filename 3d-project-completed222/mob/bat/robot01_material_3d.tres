@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cpbneemrgb00k"]
+
+[ext_resource type="Texture2D" path="res://mob/bat/robot01_0.png" id="1_fc56d"]
+
+[resource]
+resource_name = "material_0"
+albedo_texture = ExtResource("1_fc56d")
+metallic = 1.0

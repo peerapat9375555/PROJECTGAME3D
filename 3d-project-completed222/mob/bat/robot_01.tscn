@@ -1,8 +1,8 @@
 [gd_scene load_steps=13 format=3 uid="uid://c4nxepsffu3mg"]
 
-[ext_resource type="PackedScene" uid="uid://ce58erj8mkir3" path="res://mob/bat/robot01.glb" id="1_67qxi"]
-[ext_resource type="Script" uid="uid://c4srp6k3qlasj" path="res://mob/bat/robot_01.gd" id="2_3c2b0"]
-[ext_resource type="Material" uid="uid://dfrlbvquw6i8e" path="res://mob/bat/robot01_material_3d.tres" id="2_xdl0c"]
+[ext_resource type="PackedScene" path="res://mob/bat/robot01.glb" id="1_67qxi"]
+[ext_resource type="Script" path="res://mob/bat/robot_01.gd" id="2_3c2b0"]
+[ext_resource type="Material" uid="uid://cpbneemrgb00k" path="res://mob/bat/robot01_material_3d.tres" id="2_xdl0c"]
 
 [sub_resource type="Animation" id="Animation_3c2b0"]
 length = 0.001

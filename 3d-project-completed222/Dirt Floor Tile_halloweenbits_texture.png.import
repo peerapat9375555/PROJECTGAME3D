@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c71yoisvco1af"
+uid="uid://cc7kqq5vhhblg"
 path.s3tc="res://.godot/imported/Dirt Floor Tile_halloweenbits_texture.png-29f6219f38964905cfc5ea62a94db016.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "94c3e80ad69f5bfb7f65efb28b034df6"
 }
 
 [deps]
