@@ -20,3 +20,5 @@ res://scene/main_menu.gd
 res://scene/Death.tscn
 res://scene/death.gd
 res://lessons_reference/video_16/control.gd
+res://lessons_reference/video_16/testmap2.tscn
+res://lessons_reference/video_16/testmap_2.gd

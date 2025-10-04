@@ -2,7 +2,7 @@ extends Node3D
 
 var player_score: int = 0
 @export var target_score: int = 10
-@export var next_level_path: String = "res://lessons_reference/video_16/testmap.tscn"
+@export var next_level_path: String = "res://lessons_reference/video_16/testmap2.tscn"
 @export var main_menu_path: String = "res://lessons_reference/video_16/MainMenu.tscn"
 
 @onready var label: Label = $Label

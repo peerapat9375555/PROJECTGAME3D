@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1759586140
+::res://::1759590693
 break_robot-61522.mp3::AudioStreamMP3/AudioStreamMP3::3053844303817820316::1759577902::1759577902::1::::<><><>0<>0<>191600c89a5e39738db0b8e4902505ad<>res://.godot/imported/break_robot-61522.mp3-bbaa68d13396debb18ab78af4c02ad0e.mp3str::
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1759577902::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1759577902::0::1::::<><><>0<>0<><>::
@@ -14,7 +14,7 @@ Large Building.glb::PackedScene/PackedScene::6686492456944149584::1759577902::17
 Locomotion-Library.res::AnimationLibrary::8724105843146401664::1759577902::0::1::::<><><>0<>0<><>::
 robot-taking-damage-98742.mp3::AudioStreamMP3/AudioStreamMP3::2484474930294325975::1759577902::1759577902::1::::<><><>0<>0<>357bd00342ade09e4a86caf20d0c95ca<>res://.godot/imported/robot-taking-damage-98742.mp3-e3075bd19f566523f8a3268595cfd689.mp3str::
 Spaceship.glb::PackedScene/PackedScene::6795311726385626246::1759580005::1759581129::1::::<><><>0<>0<>cdbc9ffb905a670641bb5d47fe5fb413<>res://.godot/imported/Spaceship.glb-cc6dd69771df30716997f1548b800724.scn::
-test.tscn::PackedScene::3472689140747583226::1759586140::0::1::::<><><>0<>0<><>::uid://bpqvmc7qt8xut::::res://lessons_reference/video_16/game.tscn
+test.tscn::PackedScene::3472689140747583226::1759590693::0::1::::<><><>0<>0<><>::uid://bpqvmc7qt8xut::::res://lessons_reference/video_16/game.tscn
 ::res://addons/::1759506199
 ::res://addons/colorpicker_presets/::1759506199
 colorpicker_presets.gd::GDScript::5907085827967276395::1759577905::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -27,15 +27,20 @@ MeleeLib.res::AnimationLibrary::9141033643794102195::1759571100::0::1::::<><><>0
 Mixamo BoneMap.tres::BoneMap::669624810488455992::1759571343::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1758431420::0::1::::<><><>0<>0<><>::
 ShooterLib.res::AnimationLibrary::6535101767165467404::1759571344::0::1::::<><><>0<>0<><>::
-::res://esset/::1759585118
+::res://esset/::1759592816
 explosion-36210.wav::AudioStreamWAV::5395662186193773466::1759585117::1759585118::1::::<><><>0<>0<>36bf75c80aad8091d8c6ad795fb0cdd9<>res://.godot/imported/explosion-36210.wav-b4c20dca222bdc03df76ad829cc3b104.sample::
 Locomotion-Library.res::AnimationLibrary::8724105843146401664::1759576646::0::1::::<><><>0<>0<><>::
 Melee-Library--OLD.res::AnimationLibrary::1360098959342803832::1759576646::0::1::::<><><>0<>0<><>::
 MeleeLib.res::AnimationLibrary::9141033643794102195::1759576647::0::1::::<><><>0<>0<><>::
 Mixamo BoneMap.tres::BoneMap::669624810488455992::1759576647::0::1::::<><><>0<>0<><>::
+wooden_bridge_0.jpg::CompressedTexture2D::7334327408711936510::1759591786::1759591787::1::::<><><>0<>0<>afa1e28c3ff9b0c8b816c7df8f1fbea1<>res://.godot/imported/wooden_bridge_0.jpg-3bfb3de4a2622924d73540782311181a.s3tc.ctex::
 ricks ufo.glb::PackedScene/PackedScene::7650275746561152367::1759578593::1759578593::1::::<><><>0<>0<>1d945debd61f9b9693d72b298c44bf2c<>res://.godot/imported/ricks ufo.glb-7409628486b88ba2f0863948e1fca866.scn::
 ShooterLib.res::AnimationLibrary::6535101767165467404::1759576647::0::1::::<><><>0<>0<><>::
-::res://esset/char/::1759577079
+wooden_bridge.glb::PackedScene::2868606670700473614::1759591785::1759591787::1::::<><><>0<>0<>7c05c1ae53f2e0428d48fd12c143acd4<>res://.godot/imported/wooden_bridge.glb-99343d408af6d20b9883997e857efa0c.scn::uid://dcq2kh2d3y2he::::res://esset/wooden_bridge_0.jpg
+::res://esset/char/::1759594629
+Easter rabbit.glb::PackedScene::2190766756431362923::1759594629::1759594629::1::::<><><>0<>0<>61ac16ee569e15a3cd0681a28952d11d<>res://.godot/imported/Easter rabbit.glb-bac0572547fc00486d4bf0b73fb6cf39.scn::
+International Space Station.glb::PackedScene::9172434377256376051::1759592803::1759592806::1::::<><><>0<>0<>a53cf256d0c8b6b00f36333568ad0ef6<>res://.godot/imported/International Space Station.glb-94dfa38678da381f38d24a44607e499f.scn::uid://bh0khmmbvm8bd::::res://esset/char/International Space Station_InternationalSpaceStation_BaseColor.png
+International Space Station_InternationalSpaceStation_BaseColor.png::CompressedTexture2D::2929972352387684089::1759592804::1759592806::1::::<><><>0<>0<>326b99d67a884fb59ac89a3b8564b025<>res://.godot/imported/International Space Station_InternationalSpaceStation_BaseColor.png-546113f8a8227f7fc394bf2add29ce63.s3tc.ctex::
 ss1.fbx::PackedScene/PackedScene::6617014791291959824::1759576640::1759576649::1::::<><><>0<>0<>fd1ba345e4f0b92d510b092bd15b105f<>res://.godot/imported/ss1.fbx-412d0f579b0d71edd32a8a53ae04d834.scn::uid://bgvel3c4t7ymv::::res://esset/char/ss1_0.png<>uid://b8i6wwgmbn7mn::::res://esset/char/ss1_4.png<>uid://bba4dxojl1qvr::::res://esset/char/ss1_1.png<>uid://cnnu2uofg30l7::::res://esset/char/ss1_5.png
 ss1_0.png::CompressedTexture2D/CompressedTexture2D::2851169665148286813::1759576640::1759576648::1::::<><><>0<>0<>66ba5eee2b071ae70840bc21821281ab<>res://.godot/imported/ss1_0.png-f31dba96115920c4a970843ce4416f3d.s3tc.ctex::
 ss1_1.png::CompressedTexture2D/CompressedTexture2D::2458376907592050363::1759576640::1759576648::1::::<><><>0<>0<>9b20db1a43c6ec6f85e869e2991ccead<>res://.godot/imported/ss1_1.png-e684e87dd722677b347ed1e8e6983f27.s3tc.ctex::
@@ -43,9 +48,14 @@ ss1_2.png::CompressedTexture2D/CompressedTexture2D::4169337125680357228::1759576
 ss1_3.png::CompressedTexture2D/CompressedTexture2D::8279069815796076017::1759576640::1759576647::1::::<><><>0<>0<>e1b2b1ef258e69c08f03367f3669bd93<>res://.godot/imported/ss1_3.png-0b2eefdd0bfb9e631843cd269bbf9015.ctex::
 ss1_4.png::CompressedTexture2D/CompressedTexture2D::4721090225351955485::1759576640::1759576648::1::::<><><>0<>0<>415b9c2edd2f9bf76db253c35488f36e<>res://.godot/imported/ss1_4.png-b7b3fba9b4f0bf6c6f9c7f1345ca476f.s3tc.ctex::
 ss1_5.png::CompressedTexture2D/CompressedTexture2D::5713396874104751322::1759576640::1759576648::1::::<><><>0<>0<>c341a9b9f6371bee35ca1221b1ced1a7<>res://.godot/imported/ss1_5.png-091d5e5306f1843164dea51aeb8100a6.s3tc.ctex::
-::res://esset/char/ss2/::1759581130
+::res://esset/char/ss2/::1759594372
 laser-shot-ingame-230500.wav::AudioStreamWAV/AudioStreamWAV::4404785861689349946::1759573955::1759578082::1::::<><><>0<>0<>9ff956a41577a46827a1c8a591e3913f<>res://.godot/imported/laser-shot-ingame-230500.wav-0da12826dcc310dc5c53a87863c475af.sample::
 M4A1 [SINGLE SHOT] Sound Effect.wav::AudioStreamWAV/AudioStreamWAV::2846476522841561597::1759573653::1759578082::1::::<><><>0<>0<>587e660d2889fb688806de9a5f0d9b52<>res://.godot/imported/M4A1 [SINGLE SHOT] Sound Effect.wav-9627842afe165494fe7087b97019131b.sample::
+Moon (1).glb::PackedScene::4236406861085887102::1759594185::1759594186::1::::<><><>0<>0<>37281f873714e1e3d1ba36062cddd2a4<>res://.godot/imported/Moon (1).glb-6e9235775a54e86d2ad26a9f67fdb1ad.scn::uid://qsq66i8ruc3l::::res://esset/char/ss2/Moon (1)_1226 Moon.png
+Moon (2).glb::PackedScene::3192878870282987153::1759594265::1759594265::1::::<><><>0<>0<>73692c07017bb1e5945ec30701f45247<>res://.godot/imported/Moon (2).glb-31c774b5e4e180f1c81a8bc3282d1e5a.scn::uid://curvutvlner3q::::res://esset/char/ss2/Moon (2)_SphereSurface_Color.png
+Moon (2)_SphereSurface_Color.png::CompressedTexture2D::6213024465593944988::1759594265::1759594266::1::::<><><>0<>0<>ba15aef2dd70ecf01ce8a5431454d0d5<>res://.godot/imported/Moon (2)_SphereSurface_Color.png-c0f4aaf700f020a1e702793abb8d2e3b.s3tc.ctex::
+moon (3).glb::PackedScene::3990907645877695743::1759594368::1759594371::1::::<><><>0<>0<>41c78cf09ec082d4ebe26fe7f7e51ff3<>res://.godot/imported/moon (3).glb-41ea9023369332cf27f68b2d6e98fd00.scn::uid://doi50nv2cj8aq::::res://esset/char/ss2/moon (3)_0.jpg
+moon (3)_0.jpg::CompressedTexture2D::8160287755149116700::1759594368::1759594372::1::::<><><>0<>0<>5c4e4ffbe9d618958f6798ea397a766b<>res://.godot/imported/moon (3)_0.jpg-9bc26feb41c512eea735ec3987b6bbcd.s3tc.ctex::
 rifle__m4a4_weapon_model_cs2.glb::PackedScene/PackedScene::82359486038563106::1759512731::1759578082::1::::<><><>0<>0<>d5effa1b069530503d32fa2d267e61e1<>res://.godot/imported/rifle__m4a4_weapon_model_cs2.glb-635609ca03664742abb35a95a98c0ce0.scn::uid://cppc6jbuxmo75::::res://esset/char/ss2/rifle__m4a4_weapon_model_cs2_0.png<>uid://bftbns0186o21::::res://esset/char/ss2/rifle__m4a4_weapon_model_cs2_1.png<>uid://capaffux485kx::::res://esset/char/ss2/rifle__m4a4_weapon_model_cs2_2.png
 rifle__m4a4_weapon_model_cs2_0.png::CompressedTexture2D/CompressedTexture2D::5856816957059058086::1759570944::1759578081::1::::<><><>0<>0<>e701dc316f502b7efc1e77f64fbec1ad<>res://.godot/imported/rifle__m4a4_weapon_model_cs2_0.png-988b0a2a4dd54137196e23977044b8df.s3tc.ctex::
 rifle__m4a4_weapon_model_cs2_1.png::CompressedTexture2D/CompressedTexture2D::2776672996790997488::1759570945::1759578081::1::::<><><>0<>0<>7ab78abe99b533362a919924b4798834<>res://.godot/imported/rifle__m4a4_weapon_model_cs2_1.png-000e5b0f8a22989d74cbdf3a49d91364.s3tc.ctex::
@@ -79,17 +89,20 @@ player.gd::GDScript::7934636442772778966::1759577906::0::1::::<>CharacterBody3D<
 player.tscn::PackedScene::9186836937007213028::1759577906::0::1::::<><><>0<>0<><>::uid://dlbukkhb0r7gs::::res://lessons_reference/video_7/player/player.gd<>uid://b6nrg32r2wq86::::res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn
 ::res://lessons_reference/video_7/player/projectile/::1759506201
 projectile.tscn::PackedScene::2217447229611533483::1759577906::0::1::::<><><>0<>0<><>::uid://cexmab3mm00h4::::res://player/projectile/projectile_model.glb<>uid://co5jxefsyvjbo::::res://player/projectile/projectile.gdshader
-::res://lessons_reference/video_16/::1759586140
-game.gd::GDScript::3219434894789878175::1759581669::0::1::::<>Node3D<><>0<>0<><>::
-game.tscn::PackedScene::3473580023937620815::1759586140::0::1::::<><><>0<>0<><>::uid://d3kp34dihjeyd::::res://lessons_reference/video_16/player/player.tscn<>uid://bl4rvfo6g3wbf::::res://lessons_reference/video_16/game.gd<>uid://dxblx82ho8rai::::res://hazy_nebulae_1.png<>uid://spdpie6nlr1q::::res://lessons_reference/video_16/level/bridges.tres<>uid://bpcn5j0ngr8cd::::res://mob/robot_01.tscn<>uid://xtl5acmpaa04::::res://lessons_reference/video_16/mob/spawner_3d.tscn<>uid://dfwbq2vombjvr::::res://lessons_reference/video_16/mob/mob.tscn<>uid://cp4gi8r3s3twb::::res://lessons_reference/video_16/level/platforms.tres<>uid://re2r5x4xiidi::::res://Floor Tile.glb<>uid://c2i8s3i2f88xg::::res://Large Building.glb<>uid://bi1hxy3s0hvrf::::res://Large Building (1).glb<>uid://cyoxv3kj3xkkh::::res://Flying saucer.glb
+::res://lessons_reference/video_16/::1759594531
+game.gd::GDScript::3219434894789878175::1759591234::0::1::::<>Node3D<><>0<>0<><>::
+game.tscn::PackedScene::3473580023937620815::1759594531::0::1::::<><><>0<>0<><>::uid://d3kp34dihjeyd::::res://lessons_reference/video_16/player/player.tscn<>uid://bl4rvfo6g3wbf::::res://lessons_reference/video_16/game.gd<>uid://dxblx82ho8rai::::res://hazy_nebulae_1.png<>uid://spdpie6nlr1q::::res://lessons_reference/video_16/level/bridges.tres<>uid://bpcn5j0ngr8cd::::res://mob/robot_01.tscn<>uid://xtl5acmpaa04::::res://lessons_reference/video_16/mob/spawner_3d.tscn<>uid://dfwbq2vombjvr::::res://lessons_reference/video_16/mob/mob.tscn<>uid://cp4gi8r3s3twb::::res://lessons_reference/video_16/level/platforms.tres<>uid://re2r5x4xiidi::::res://Floor Tile.glb<>uid://c2i8s3i2f88xg::::res://Large Building.glb<>uid://bi1hxy3s0hvrf::::res://Large Building (1).glb<>uid://cyoxv3kj3xkkh::::res://Flying saucer.glb<>uid://kx1spi0ucns2::::res://lessons_reference/video_16/control.gd
+control.gd::GDScript::750980712197308963::1759589809::0::1::::<>Control<><>0<>0<><>::
+testmap_2.gd::GDScript::8212235344359452971::1759591199::0::1::::<>Node3D<><>0<>0<><>::
+testmap2.tscn::PackedScene::6933572286125284736::1759594531::0::1::::<><><>0<>0<><>::uid://dpack0v20g5n0::::res://lessons_reference/video_16/testmap_2.gd<>uid://dxblx82ho8rai::::res://hazy_nebulae_1.png<>uid://d3kp34dihjeyd::::res://lessons_reference/video_16/player/player.tscn<>uid://xtl5acmpaa04::::res://lessons_reference/video_16/mob/spawner_3d.tscn<>uid://bpcn5j0ngr8cd::::res://mob/robot_01.tscn<>uid://dfwbq2vombjvr::::res://lessons_reference/video_16/mob/mob.tscn<>uid://cp4gi8r3s3twb::::res://lessons_reference/video_16/level/platforms.tres<>uid://c2i8s3i2f88xg::::res://Large Building.glb<>uid://bw4hwvyruch8r::::res://esset/char/ss2/moon (3).glb<>uid://kx1spi0ucns2::::res://lessons_reference/video_16/control.gd<>uid://d3xgwied75pol::::res://esset/char/International Space Station.glb
 testmap.gd::GDScript::1845485965493124394::1759581744::0::1::::<>Node3D<><>0<>0<><>::
-testmap.tscn::PackedScene::429780737206580330::1759586140::0::1::::<><><>0<>0<><>::uid://1j75cfq0y027::::res://lessons_reference/video_16/testmap.gd<>uid://d3kp34dihjeyd::::res://lessons_reference/video_16/player/player.tscn<>uid://xtl5acmpaa04::::res://lessons_reference/video_16/mob/spawner_3d.tscn<>uid://bpcn5j0ngr8cd::::res://mob/robot_01.tscn<>uid://dfwbq2vombjvr::::res://lessons_reference/video_16/mob/mob.tscn<>uid://spdpie6nlr1q::::res://lessons_reference/video_16/level/bridges.tres<>uid://re2r5x4xiidi::::res://Floor Tile.glb<>uid://cp4gi8r3s3twb::::res://lessons_reference/video_16/level/platforms.tres<>uid://c2i8s3i2f88xg::::res://Large Building.glb<>uid://bi1hxy3s0hvrf::::res://Large Building (1).glb
+testmap.tscn::PackedScene::429780737206580330::1759594531::0::1::::<><><>0<>0<><>::uid://xtl5acmpaa04::::res://lessons_reference/video_16/mob/spawner_3d.tscn<>uid://bpcn5j0ngr8cd::::res://mob/robot_01.tscn<>uid://cyoxv3kj3xkkh::::res://Flying saucer.glb<>uid://dfwbq2vombjvr::::res://lessons_reference/video_16/mob/mob.tscn<>uid://spdpie6nlr1q::::res://lessons_reference/video_16/level/bridges.tres<>uid://kx1spi0ucns2::::res://lessons_reference/video_16/control.gd<>uid://re2r5x4xiidi::::res://Floor Tile.glb<>uid://cp4gi8r3s3twb::::res://lessons_reference/video_16/level/platforms.tres<>uid://c2i8s3i2f88xg::::res://Large Building.glb<>uid://bi1hxy3s0hvrf::::res://Large Building (1).glb<>uid://dxblx82ho8rai::::res://hazy_nebulae_1.png
 ::res://lessons_reference/video_16/level/::1759506200
 bridges.tres::StandardMaterial3D::1294574217474694608::1759577906::0::1::::<><><>0<>0<><>::uid://ismvrp3hwx22::::res://level/checkboard.png
 platforms.tres::StandardMaterial3D::5885921325961858297::1759577906::0::1::::<><><>0<>0<><>::uid://ismvrp3hwx22::::res://level/checkboard.png
-::res://lessons_reference/video_16/mob/::1759586140
+::res://lessons_reference/video_16/mob/::1759590693
 mob.gd::GDScript::3918756087012117682::1759577906::0::1::::<>RigidBody3D<><>0<>0<><>::
-mob.tscn::PackedScene::7555713320777553991::1759586140::0::1::::<><><>0<>0<><>::uid://bv3jltj3o05ny::::res://lessons_reference/video_16/mob/mob.gd<>uid://12e7gwo50sef::::res://lessons_reference/video_16/mob/bat/bat_model.tscn<>uid://bec5opkuf77c7::::res://mob/mob_take_damage.wav<>uid://ha0bp3cygkq1::::res://mob/mob_ko.wav
+mob.tscn::PackedScene::7555713320777553991::1759590693::0::1::::<><><>0<>0<><>::uid://bv3jltj3o05ny::::res://lessons_reference/video_16/mob/mob.gd<>uid://12e7gwo50sef::::res://lessons_reference/video_16/mob/bat/bat_model.tscn<>uid://bec5opkuf77c7::::res://mob/mob_take_damage.wav<>uid://ha0bp3cygkq1::::res://mob/mob_ko.wav
 spawner_3d.gd::GDScript::3453044534646672347::1759577906::0::1::::<>Node3D<><>0<>0<><>::
 spawner_3d.tscn::PackedScene::1654288045394338399::1759578647::0::1::::<><><>0<>0<><>::uid://bpgxeyw3xlpvn::::res://lessons_reference/video_16/mob/spawner_3d.gd<>uid://c2oal6rrmeo67::::res://lessons_reference/video_16/mob/spawner/spawner_skin.tscn
 ::res://lessons_reference/video_16/mob/bat/::1759576640
@@ -99,20 +112,21 @@ bat_model.tscn::PackedScene::1880948497127466045::1759578646::0::1::::<><><>0<>0
 bat_skin.tscn::PackedScene::3624578314218481951::1759577906::0::1::::<><><>0<>0<><>::uid://cb4uxoephhm18::::res://mob/bat/bat_model.glb<>uid://c28yvvp6nnmq4::::res://lessons_reference/video_16/mob/bat/bat_material.tres
 ::res://lessons_reference/video_16/mob/spawner/::1759576640
 spawner_skin.tscn::PackedScene::6696862733177009462::1759578647::0::1::::<><><>0<>0<><>::uid://cbhp570drcrsj::::res://mob/spawner/spawner_model.glb<>uid://cm274ruttg57j::::res://mob/spawner/spawner_halo.gdshader<>uid://jvnbftghahty::::res://mob/spawner/spawner_screen_material.tres<>uid://dg836n7cyx0pv::::res://esset/ricks ufo.glb
-::res://lessons_reference/video_16/player/::1759586140
+::res://lessons_reference/video_16/player/::1759594531
 bullet_3d.gd::GDScript::1571520943775013997::1759583801::0::1::::<>Area3D<><>0<>0<><>::
-bullet_3d.tscn::PackedScene::1545510947840086523::1759586140::0::1::::<><><>0<>0<><>::uid://wniyqyk2io5j::::res://lessons_reference/video_16/player/bullet_3d.gd<>uid://caxbqhwe5nxb3::::res://lessons_reference/video_16/player/projectile/projectile.tscn
+bullet_3d.tscn::PackedScene::1545510947840086523::1759594531::0::1::::<><><>0<>0<><>::uid://wniyqyk2io5j::::res://lessons_reference/video_16/player/bullet_3d.gd<>uid://caxbqhwe5nxb3::::res://lessons_reference/video_16/player/projectile/projectile.tscn
 gun.gd::GDScript::3384668974081646263::1759506200::0::1::::<>Node3D<><>0<>0<><>::
 player.gd::GDScript::2360016747537621846::1759585486::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.tscn::PackedScene::9146155735790406075::1759586140::0::1::::<><><>0<>0<><>::uid://8vhepp8ap6hu::::res://lessons_reference/video_16/player/player.gd<>uid://wawlsqcberu6::::res://lessons_reference/video_16/player/bullet_3d.tscn<>uid://bbcu3rru1q6gx::::res://lessons_reference/video_16/player/bullet_3dv2.tscn<>uid://b6nrg32r2wq86::::res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn<>uid://b30ygdu1636ug::::res://esset/char/ss2/laser-shot-ingame-230500.wav<>uid://courndspfmq8n::::res://player/reticle.png<>uid://b75s446urhg4c::::res://esset/char/ss2/Walk Forward_0.png<>uid://bhirlq4l537m2::::res://esset/char/ss2/Walk Forward_1.png<>uid://ci4x1dxfyp20e::::res://esset/explosion-36210.wav<>uid://cm3cjoekrnu0k::::res://esset/char/ss2/Walk Forward_3.png<>uid://cq5f8scg80skf::::res://anima/Locomotion-Library.res<>uid://c0dwf3bmja0gm::::res://esset/ShooterLib.res
-bullet_3dv2.tscn::PackedScene::2462003545026665023::1759586140::0::1::::<><><>0<>0<><>::uid://btyuxmn5m7xxe::::res://lessons_reference/video_16/player/bullet_3_dv_2.gd<>uid://caxbqhwe5nxb3::::res://lessons_reference/video_16/player/projectile/projectile.tscn
+player.tscn::PackedScene::9146155735790406075::1759594531::0::1::::<><><>0<>0<><>::uid://8vhepp8ap6hu::::res://lessons_reference/video_16/player/player.gd<>uid://wawlsqcberu6::::res://lessons_reference/video_16/player/bullet_3d.tscn<>uid://bbcu3rru1q6gx::::res://lessons_reference/video_16/player/bullet_3dv2.tscn<>uid://b6nrg32r2wq86::::res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn<>uid://b30ygdu1636ug::::res://esset/char/ss2/laser-shot-ingame-230500.wav<>uid://courndspfmq8n::::res://player/reticle.png<>uid://b75s446urhg4c::::res://esset/char/ss2/Walk Forward_0.png<>uid://bhirlq4l537m2::::res://esset/char/ss2/Walk Forward_1.png<>uid://ci4x1dxfyp20e::::res://esset/explosion-36210.wav<>uid://cm3cjoekrnu0k::::res://esset/char/ss2/Walk Forward_3.png<>uid://cq5f8scg80skf::::res://anima/Locomotion-Library.res<>uid://c0dwf3bmja0gm::::res://esset/ShooterLib.res
+bullet_3dv2.tscn::PackedScene::2462003545026665023::1759594531::0::1::::<><><>0<>0<><>::uid://btyuxmn5m7xxe::::res://lessons_reference/video_16/player/bullet_3_dv_2.gd<>uid://caxbqhwe5nxb3::::res://lessons_reference/video_16/player/projectile/projectile.tscn
 bullet_3_dv_2.gd::GDScript::3770809843771335854::1759586139::0::1::::<>Area3D<><>0<>0<><>::
-::res://lessons_reference/video_16/player/projectile/::1759586140
-projectile.tscn::PackedScene::4820411747296339298::1759586140::0::1::::<><><>0<>0<><>::uid://cexmab3mm00h4::::res://player/projectile/projectile_model.glb<>uid://co5jxefsyvjbo::::res://player/projectile/projectile.gdshader
+::res://lessons_reference/video_16/player/projectile/::1759594531
+projectile.tscn::PackedScene::4820411747296339298::1759594531::0::1::::<><><>0<>0<><>::uid://cexmab3mm00h4::::res://player/projectile/projectile_model.glb<>uid://co5jxefsyvjbo::::res://player/projectile/projectile.gdshader
 ::res://lessons_reference/video_16/player/simple_gun/::1759582735
 blue_gun.tscn::PackedScene::4590156164088232193::1759582735::0::1::::<><><>0<>0<><>::uid://dr6h6dnv0o8w5::::res://player/simple_gun/gun_model.glb<>uid://c5l565gg1dwk6::::res://player/simple_gun/simple_gun_gun_palette.png<>uid://bf5pix1470k1::::res://esset/char/ss2/rifle__m4a4_weapon_model_cs2.glb
-::res://level/::1759576648
+::res://level/::1759594650
 checkboard.png::CompressedTexture2D/CompressedTexture2D::599436571613992557::1759577906::1759577906::1::::<><><>0<>0<>13836c0c99049213c3bcb98d58ecdb6c<>res://.godot/imported/checkboard.png-130d133a6029e1ca9a92686e2c703873.s3tc.ctex::
+Easter rabbit.glb::PackedScene::2881186797168803788::1759594650::1759594651::1::::<><><>0<>0<>143974d1acaca9218a4218d5c0c18a13<>res://.godot/imported/Easter rabbit.glb-9c9be039edd48e08721ee22ae55f80b2.scn::
 shaded.png::CompressedTexture2D/CompressedTexture2D::4560629705067855802::1759577906::1759577906::1::::<><><>0<>0<>1076ca8853b4adade83f821aa7463839<>res://.godot/imported/shaded.png-b0c0be7742245d734b54b64386f84ccd.ctex::
 sky.gdshader::Shader::1342843437167579345::1759577906::0::1::::<><><>0<>0<><>::
 temporary_level.tscn::PackedScene::8279289030407758400::1759577906::0::1::::<><><>0<>0<><>::uid://ismvrp3hwx22::::res://level/checkboard.png<>uid://d35f4kvrfqy0c::::res://lessons_reference/video_7/player/player.tscn
@@ -121,7 +135,7 @@ mob_ko.wav::AudioStreamWAV/AudioStreamWAV::492842447307259858::1759577906::17595
 mob_take_damage.wav::AudioStreamWAV/AudioStreamWAV::2673152128865993908::1759577906::1759577906::1::::<><><>0<>0<>83c242653d42c615f1039f668083d101<>res://.godot/imported/mob_take_damage.wav-1cdfbd77e9c3f3326daadc27788f65ff.sample::
 robot_01.gd::GDScript::5179618061294608602::1759577906::0::1::::<>RigidBody3D<><>0<>0<><>::
 robot_01.tscn::PackedScene::3444225500424463891::1759578646::0::1::::<><><>0<>0<><>::uid://cf2bs17a08wde::::res://mob/robot_01.gd<>uid://c4nxepsffu3mg::::res://mob/bat/robot_01.tscn<>uid://bbnq66vaai8n0::::res://robot-taking-damage-98742.mp3<>uid://bjrkmtfjyfwq3::::res://break_robot-61522.mp3
-::res://mob/bat/::1759587197
+::res://mob/bat/::1759587198
 bat_model.glb::PackedScene/PackedScene::4904153321204405197::1759577906::1759577906::1::::<><><>0<>0<>f357fdfda844bcc39c928d91ad883021<>res://.godot/imported/bat_model.glb-e50cda297cb03a23f6e020e0603d8c2d.scn::uid://7dgg0k4xt4kf::::res://mob/bat/bat_model_bat_palette.png
 bat_model_bat_palette.png::CompressedTexture2D/CompressedTexture2D::2252612476280185205::1759577906::1759577906::1::::<><><>0<>0<>e187001f7fb3b66497c84a6709a23e03<>res://.godot/imported/bat_model_bat_palette.png-7ad9c3c193e1d543015fac56e3d622e5.s3tc.ctex::
 pngtree-game-space-interstellar-image_2408883.jpg::CompressedTexture2D::3760167234941087408::1759587197::1759587198::1::::<><><>0<>0<>c7c486ca62c79b47997e9cb3b87abfde<>res://.godot/imported/pngtree-game-space-interstellar-image_2408883.jpg-67edbe7d31f3d7f521e2938b6309261d.ctex::
@@ -149,12 +163,16 @@ spawner_text.png::CompressedTexture2D/CompressedTexture2D::3026948454151321613::
 ::res://player/::1759576639
 gun_shoot.wav::AudioStreamWAV/AudioStreamWAV::4614082512942926544::1759577906::1759577906::1::::<><><>0<>0<>5aa35dbc15caab3f65a2c3e13b029d5d<>res://.godot/imported/gun_shoot.wav-52147792398daed63da61b6ad9e912dd.sample::
 reticle.png::CompressedTexture2D/CompressedTexture2D::5797828323662878783::1759577906::1759577906::1::::<><><>0<>0<>c68cc8646e0c7056c1e05497b6b28581<>res://.godot/imported/reticle.png-94d8174638f634e8c9dc538a8a25a59b.ctex::
-::res://player/projectile/::1759587003
-projectile.gdshader::Shader::5818004255803327740::1759587003::0::1::::<><><>0<>0<><>::
+::res://player/projectile/::1759594531
+projectile.gdshader::Shader::5818004255803327740::1759594531::0::1::::<><><>0<>0<><>::
 projectile_model.glb::PackedScene/PackedScene::5101806130535050743::1759577906::1759577906::1::::<><><>0<>0<>3b91f771110ecb9a2077eea9ba77ee9b<>res://.godot/imported/projectile_model.glb-828324a605ffc923b73f3dcca1df4ac2.scn::
 ::res://player/simple_gun/::1759570632
 gun_model.glb::PackedScene/PackedScene::8416948660502773102::1759577906::1759577906::1::::<><><>0<>0<>b90b440fcd30d8b162e53c58d3744b0d<>res://.godot/imported/gun_model.glb-1353dadf5f32e414e4a769d740e7949e.scn::uid://cmf6nrgtsf61v::::res://player/simple_gun/gun_model_gun_palette.png
 gun_model_gun_palette.png::CompressedTexture2D/CompressedTexture2D::5627335724962752941::1759577906::1759577906::1::::<><><>0<>0<>98acee48d6dc97c2fcb2b1f90621ac77<>res://.godot/imported/gun_model_gun_palette.png-5e9639c5a5afbe289b00847128bc0590.s3tc.ctex::
 simple_gun_gun_palette.png::CompressedTexture2D/CompressedTexture2D::6903093286492708675::1759577906::1759577906::1::::<><><>0<>0<>9a57016b56c4e408ab3b149b64e55258<>res://.godot/imported/simple_gun_gun_palette.png-9f1ece1a39a41c24787881bd26d0b826.ctex::
-::res://scene/::1759587003
-main_menu.tscn::PackedScene::5579065722686840026::1759587003::0::1::::<><><>0<>0<><>::uid://7dgg0k4xt4kf::::res://mob/bat/bat_model_bat_palette.png
+::res://scene/::1759594531
+main_menu.tscn::PackedScene::5579065722686840026::1759594531::0::1::::<><><>0<>0<><>::uid://crt466peiawxa::::res://scene/main_menu.gd<>uid://bttpn1f2va0oa::::res://mob/bat/pngtree-game-space-interstellar-image_2408883.jpg
+main_menu.gd::GDScript::6007092690549546918::1759589359::0::1::::<>Control<><>0<>0<><>::
+control.tscn::PackedScene::4626001189790765145::1759588249::0::1::::<><><>0<>0<><>::
+Death.tscn::PackedScene::8813644771612675764::1759588944::0::1::::<><><>0<>0<><>::uid://df5dspf78bty7::::res://scene/death.gd
+death.gd::GDScript::7572352694232214900::1759588924::0::1::::<>Control<><>0<>0<><>::

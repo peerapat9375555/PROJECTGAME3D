@@ -698,6 +698,11 @@ shape = SubResource("CapsuleShape3D_ctapl")
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 0.910026, 0.41455, 0, -0.41455, 0.910026, 0.0356351, 1.95312, 0.753563)
 
+[node name="Marker3D" type="Marker3D" parent="Camera3D"]
+unique_name_in_owner = true
+transform = Transform3D(0.42952, 0, 0, 0, 0.390875, -0.178058, 0, 0.178058, 0.390875, 0.117291, -0.210315, -1.60981)
+gizmo_extents = 0.37
+
 [node name="TimerPrimary" type="Timer" parent="."]
 unique_name_in_owner = true
 process_callback = 0
@@ -736,7 +741,7 @@ max_polyphony = 4
 [node name="AudioStreamPlayerAlt" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true
 stream = ExtResource("6_8od10")
-volume_db = 3.049
+volume_db = -20.0
 max_polyphony = 4
 
 [node name="gobot" type="Node3D" parent="."]
@@ -1229,8 +1234,3 @@ libraries = {
 [node name="gun_model" parent="." instance=ExtResource("3_43sda")]
 unique_name_in_owner = true
 transform = Transform3D(-0.499851, 0.0122151, -4.42184e-08, 0, -1.81e-06, -0.5, -0.0122151, -0.499851, 1.80945e-06, 0.176411, 1.16027, -0.395167)
-
-[node name="Marker3D" type="Marker3D" parent="."]
-unique_name_in_owner = true
-transform = Transform3D(0.42952, 0, 0, 0, 0.42952, 0, 0, 0, 0.42952, 0.152926, 1.09438, -0.624222)
-gizmo_extents = 0.37
