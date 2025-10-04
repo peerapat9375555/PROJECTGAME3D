@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bpqvmc7qt8xut"]
+[gd_scene load_steps=19 format=3 uid="uid://bpqvmc7qt8xut"]
 
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="1_fqdcw"]
 [ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_xym6k"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://xtl5acmpaa04" path="res://lessons_reference/video_16/mob/spawner_3d.tscn" id="5_7vlo8"]
 [ext_resource type="PackedScene" uid="uid://dfwbq2vombjvr" path="res://lessons_reference/video_16/mob/mob.tscn" id="5_787o4"]
 [ext_resource type="Material" uid="uid://cp4gi8r3s3twb" path="res://lessons_reference/video_16/level/platforms.tres" id="5_l41we"]
+[ext_resource type="PackedScene" uid="uid://banlvpn7x3foq" path="res://mob/robot_02.tscn" id="6_i6xss"]
 [ext_resource type="PackedScene" uid="uid://re2r5x4xiidi" path="res://Floor Tile.glb" id="7_6ve8k"]
 [ext_resource type="PackedScene" uid="uid://c2i8s3i2f88xg" path="res://Large Building.glb" id="8_3wpyi"]
 [ext_resource type="PackedScene" uid="uid://bi1hxy3s0hvrf" path="res://Large Building (1).glb" id="10_a3pdk"]
@@ -72,7 +73,7 @@ mob_to_spawn = ExtResource("4_vsr84")
 
 [node name="MobSpawner3D2" parent="." instance=ExtResource("5_7vlo8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.98672, -2.01545, 23.052)
-mob_to_spawn = ExtResource("5_787o4")
+mob_to_spawn = ExtResource("6_i6xss")
 
 [node name="MobSpawner3D3" parent="." instance=ExtResource("5_7vlo8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.9312, 0.5, -7.19963)
