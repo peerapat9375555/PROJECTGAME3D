@@ -1,0 +1,15 @@
+res://lessons_reference/video_16/game.tscn
+res://player/projectile/projectile.gdshader
+res://lessons_reference/video_16/level/bridges.tres
+res://mob/bat/robot01_material_3d.tres
+res://lessons_reference/video_16/player/projectile/projectile.tscn
+res://lessons_reference/video_16/mob/mob.tscn
+res://lessons_reference/video_16/player/player.tscn
+res://test.tscn
+res://lessons_reference/video_16/testmap.tscn
+res://lessons_reference/video_16/player/bullet_3d.tscn
+res://lessons_reference/video_16/player/bullet_3dv2.tscn
+res://scene/main_menu.tscn
+res://mob/robot_02.tscn
+res://mob/bat/robot_02.tscn
+res://mob/robot_01.tscn
