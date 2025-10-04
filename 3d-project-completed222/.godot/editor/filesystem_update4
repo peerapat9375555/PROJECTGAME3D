@@ -1,4 +1,5 @@
 res://lessons_reference/video_16/game.tscn
+<<<<<<< Updated upstream
 res://esset/char/ss2/ss2.tscn
 res://anima/Locomotion-Library.res
 res://lessons_reference/video_16/player/player.tscn
@@ -6,3 +7,27 @@ res://anima/Mixamo BoneMap.tres
 res://anima/ShooterLib.res
 res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn
 res://lessons_reference/video_16/player/player.gd
+=======
+res://player/projectile/projectile.gdshader
+res://mob/bat/robot01_material_3d.tres
+res://lessons_reference/video_7/player/bullet_3d.tscn
+res://lessons_reference/video_16/player/bullet_3d.tscn
+res://lessons_reference/video_16/player/projectile/projectile.tscn
+res://lessons_reference/video_16/mob/mob.tscn
+res://mob/robot_01.tscn
+res://mob/bat/robot_01.tscn
+res://lessons_reference/video_16/mob/bat/bat_model.tscn
+res://lessons_reference/video_16/mob/bat/bat_material.tres
+res://lessons_reference/video_16/mob/spawner_3d.tscn
+res://main-environment.tres
+res://lessons_reference/challenges/player_health_bar.tscn
+res://lessons_reference/challenges/time_left.tscn
+res://lessons_reference/video_7/level/temporary_level.tscn
+res://lessons_reference/video_7/player/projectile/projectile.tscn
+res://lessons_reference/video_7/player/player.tscn
+res://lessons_reference/video_16/player/player.gd
+res://lessons_reference/video_16/player/player.tscn
+res://lessons_reference/video_16/mob/spawner/spawner_skin.tscn
+res://lessons_reference/video_16/mob/mob.gd
+res://lessons_reference/video_16/player/bullet_3d.gd
+>>>>>>> Stashed changes

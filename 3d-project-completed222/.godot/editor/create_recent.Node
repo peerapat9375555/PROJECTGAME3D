@@ -1,1 +1,10 @@
+<<<<<<< Updated upstream
 Node3D
+=======
+CollisionShape3D
+Node3D
+Timer
+AnimationTree
+AnimationPlayer
+RigidBody3D
+>>>>>>> Stashed changes
