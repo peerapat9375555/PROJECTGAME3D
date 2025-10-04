@@ -1,0 +1,8 @@
+res://lessons_reference/video_16/game.tscn
+res://esset/char/ss2/ss2.tscn
+res://anima/Locomotion-Library.res
+res://lessons_reference/video_16/player/player.tscn
+res://anima/Mixamo BoneMap.tres
+res://anima/ShooterLib.res
+res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn
+res://lessons_reference/video_16/player/player.gd
