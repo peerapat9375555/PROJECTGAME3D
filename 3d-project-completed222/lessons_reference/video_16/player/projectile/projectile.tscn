@@ -6,8 +6,8 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vlgnn"]
 render_priority = 0
 shader = ExtResource("3_0wdqo")
-shader_parameter/tail_color = Color(0.402255, 0.862108, 0.746298, 1)
-shader_parameter/head_color = Color(0, 0.376471, 1, 1)
+shader_parameter/tail_color = Color(1, 0.701961, 0, 1)
+shader_parameter/head_color = Color(1, 0.45098, 0, 1)
 
 [node name="Projectile" instance=ExtResource("1_b2viw")]
 

@@ -1,14 +1,2 @@
-res://mob/bat/robot_01.tscn
-res://player/projectile/projectile.gdshader
-res://mob/bat/robot01_material_3d.tres
-res://lessons_reference/video_16/mob/bat/bat_material.tres
-res://lessons_reference/video_16/game.tscn
-res://lessons_reference/video_7/player/bullet_3d.tscn
-res://lessons_reference/video_16/player/bullet_3d.tscn
-res://lessons_reference/video_16/player/projectile/projectile.tscn
-res://lessons_reference/video_16/mob/mob.tscn
-res://mob/robot_01.tscn
-res://lessons_reference/video_16/mob/bat/bat_model.tscn
 res://lessons_reference/video_16/mob/spawner_3d.tscn
-res://mob/robot_01.gd
-res://lessons_reference/video_16/mob/mob.gd
+res://lessons_reference/video_16/player/player.tscn
