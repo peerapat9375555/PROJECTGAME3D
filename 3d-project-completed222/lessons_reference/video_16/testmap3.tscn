@@ -139,47 +139,223 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 100
 text = "Menu"
 
-[node name="Sketchfab_Scene" parent="." instance=ExtResource("15_15es5")]
-transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, -18.7401, -16.2815)
+[node name="Node3D" type="Node3D" parent="."]
 
-[node name="Platform4" type="CSGBox3D" parent="Sketchfab_Scene"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.807797, 16.9133, 131.567)
-visible = false
-use_collision = true
-size = Vector3(13, 10.4364, 384.553)
-material = ExtResource("10_8w1h3")
+[node name="Shipping Container" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.88528, 0, -0.667614, 0, 2, 0, 0.667614, 0, 1.88528, -4.57236, 3.20091, 90.1051)
 
-[node name="Large Building" parent="Sketchfab_Scene/Platform4" instance=ExtResource("11_wr76r")]
-transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
-visible = false
-
-[node name="Sketchfab_Scene2" parent="." instance=ExtResource("15_15es5")]
-transform = Transform3D(-3.49691e-08, 0, 0.8, 0, 0.8, 0, -0.8, 0, -3.49691e-08, -89.1303, -15.3961, 88.1875)
-
-[node name="Platform4" type="CSGBox3D" parent="Sketchfab_Scene2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.807797, 16.9133, 131.567)
-visible = false
-use_collision = true
-size = Vector3(13, 10.4364, 384.553)
-material = ExtResource("10_8w1h3")
-
-[node name="Large Building" parent="Sketchfab_Scene2/Platform4" instance=ExtResource("11_wr76r")]
-transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
-visible = false
-
-[node name="Shipping Container" parent="." instance=ExtResource("12_7aop4")]
-transform = Transform3D(1.88528, 0, -0.667614, 0, 2, 0, 0.667614, 0, 1.88528, -4.57236, 4.2166, 90.1051)
-
-[node name="Platform4" type="CSGBox3D" parent="Shipping Container"]
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container"]
 transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
 visible = false
 use_collision = true
 size = Vector3(13, 10.4364, 8)
 material = ExtResource("10_8w1h3")
 
-[node name="Large Building" parent="Shipping Container/Platform4" instance=ExtResource("11_wr76r")]
+[node name="Large Building" parent="Node3D/Shipping Container/Platform4" instance=ExtResource("11_wr76r")]
 transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
 visible = false
+
+[node name="Shipping Container2" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.80965, 0, 0.851559, 0, 2, 0, -0.851559, 0, 1.80965, 8.23617, 3.20091, 84.7259)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container2"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container2/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container3" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.80965, 0, 0.851559, 0, 2, 0, -0.851559, 0, 1.80965, 30.5975, 3.20091, 87.2146)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container3"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container3/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container4" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.88528, 0, -0.667614, 0, 2, 0, 0.667614, 0, 1.88528, -60.5968, 3.20091, 90.1051)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container4"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container4/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container5" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.80965, 0, 0.851559, 0, 2, 0, -0.851559, 0, 1.80965, -47.7883, 3.20091, 84.7259)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container5"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container5/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container6" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(1.80965, 0, 0.851559, 0, 2, 0, -0.851559, 0, 1.80965, -25.4269, 3.20091, 87.2146)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container6"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container6/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container7" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(0.918726, 0, 1.7765, 0, 2, 0, -1.7765, 0, 0.918726, 1.16125, -0.529428, 145.198)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container7"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container7/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container8" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, -2.41905, -0.529428, 131.775)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container8"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container8/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container9" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, 3.09884, -0.529428, 109.963)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container9"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container9/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container10" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(0.918726, 0, 1.7765, 0, 2, 0, -1.7765, 0, 0.918726, 1.16125, -0.529428, 58.9888)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container10"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container10/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container13" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(0.918726, 0, 1.7765, 0, 2, 0, -1.7765, 0, 0.918726, 3.05765, 3.03987, 85.0147)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container13"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container13/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container14" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(0.918726, 0, 1.7765, 0, 2, 0, -1.7765, 0, 0.918726, 3.05765, 3.03987, 85.0147)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container14"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container14/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container11" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, -2.41905, -0.529428, 45.5659)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container11"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container11/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container12" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, 3.09884, -0.529428, 23.7536)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container12"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container12/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Sketchfab_Scene2" parent="Node3D" instance=ExtResource("15_15es5")]
+transform = Transform3D(-3.49691e-08, 0, 0.8, 0, 0.8, 0, -0.8, 0, -3.49691e-08, -89.1303, -15.3961, 88.1875)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Sketchfab_Scene2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.807797, 16.9133, 131.567)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 384.553)
+material = ExtResource("10_8w1h3")
+
+[node name="Sketchfab_Scene" parent="Node3D" instance=ExtResource("15_15es5")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, -18.7401, -16.2815)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Sketchfab_Scene"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.807797, 16.9133, 131.567)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 384.553)
+material = ExtResource("10_8w1h3")
 
 [connection signal="body_entered" from="KillPlane" to="." method="_on_kill_plane_body_entered"]
 [connection signal="mob_spawned" from="MobSpawner3D" to="." method="_on_mob_spawner_3d_mob_spawned"]

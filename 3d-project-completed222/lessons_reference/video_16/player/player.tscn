@@ -696,11 +696,11 @@ shape = SubResource("CapsuleShape3D_ctapl")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 0.910026, 0.41455, 0, -0.41455, 0.910026, 0.0356351, 1.95312, 0.753563)
+transform = Transform3D(1, 0, 0, 0, 0.910026, 0.41455, 0, -0.41455, 0.910026, 0.0356351, 1.97502, 0.362437)
 
 [node name="Marker3D" type="Marker3D" parent="Camera3D"]
 unique_name_in_owner = true
-transform = Transform3D(0.42952, 0, 0, 0, 0.390875, -0.178058, 0, 0.178058, 0.390875, 0.117291, -0.210315, -1.60981)
+transform = Transform3D(0.42952, 0, 0, 0, 0.390875, -0.178058, 0, 0.178058, 0.390875, 0.117291, -0.18679, -1.62464)
 gizmo_extents = 0.37
 
 [node name="TimerPrimary" type="Timer" parent="."]

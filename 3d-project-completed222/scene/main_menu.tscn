@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://clqsnrldaq0gk"]
 
 [ext_resource type="Script" uid="uid://crt466peiawxa" path="res://scene/main_menu.gd" id="1_hxu56"]
-[ext_resource type="Texture2D" uid="uid://bttpn1f2va0oa" path="res://mob/bat/pngtree-game-space-interstellar-image_2408883.jpg" id="2_2fwvj"]
+[ext_resource type="Texture2D" uid="uid://c46norbu3hrdn" path="res://esset/char/ChatGPT_Image_Oct_5_2025_02_49_42_PM.png" id="2_hxu56"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -25,18 +25,21 @@ text = "BOKY"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 2
-offset_left = -4.0
-offset_top = -19.0
-offset_right = 1750.0
-offset_bottom = 846.0
-texture = ExtResource("2_2fwvj")
+offset_left = -24.0
+offset_top = -146.0
+offset_right = 1730.0
+offset_bottom = 878.0
+scale = Vector2(0.989877, 0.989877)
+texture = ExtResource("2_hxu56")
 
 [node name="BtnStart" type="Button" parent="."]
 unique_name_in_owner = true
 layout_mode = 2
-offset_left = 547.0
-offset_top = 479.0
-offset_right = 1120.0
-offset_bottom = 751.0
+offset_left = 966.0
+offset_top = 559.0
+offset_right = 1539.0
+offset_bottom = 831.0
+scale = Vector2(0.72, 0.64)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 100
 text = "start"
