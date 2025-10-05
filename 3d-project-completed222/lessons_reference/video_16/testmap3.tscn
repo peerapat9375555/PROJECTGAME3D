@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://ucj0ft860dk2"]
 
 [ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_0kaqy"]
-[ext_resource type="Texture2D" uid="uid://dxblx82ho8rai" path="res://hazy_nebulae_1.png" id="2_15es5"]
+[ext_resource type="Texture2D" uid="uid://d4xbt08at4n5" path="res://mob/qwantani_dusk_2_puresky_1k (1).hdr" id="2_7aop4"]
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="3_qlm8w"]
 [ext_resource type="PackedScene" uid="uid://xtl5acmpaa04" path="res://lessons_reference/video_16/mob/spawner_3d.tscn" id="4_pwf4r"]
 [ext_resource type="PackedScene" uid="uid://bpcn5j0ngr8cd" path="res://mob/robot_01.tscn" id="5_ebcg0"]
@@ -14,8 +14,8 @@
 [ext_resource type="PackedScene" uid="uid://bm5db3iquwn2e" path="res://esset/char/ddd/golden_gate_bridge.glb" id="15_15es5"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_f68rl"]
-panorama = ExtResource("2_15es5")
-energy_multiplier = 3.05
+panorama = ExtResource("2_7aop4")
+energy_multiplier = 0.5
 
 [sub_resource type="Sky" id="Sky_ircu3"]
 sky_material = SubResource("PanoramaSkyMaterial_f68rl")
