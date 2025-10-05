@@ -1,6 +1,6 @@
 extends Control
 
-@export var game_scene_path: String = "res://lessons_reference/video_16/game.tscn"
+@export var game_scene_path: String = "res://lessons_reference/video_16/testmap40.tscn"
 @onready var btn_start: Button = $BtnStart
 
 func _ready() -> void:

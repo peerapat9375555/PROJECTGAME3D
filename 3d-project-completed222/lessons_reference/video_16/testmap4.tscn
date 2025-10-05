@@ -1,6 +1,6 @@
-[gd_scene load_steps=19 format=3 uid="uid://ba1goppslmo7t"]
+[gd_scene load_steps=21 format=3 uid="uid://ba1goppslmo7t"]
 
-[ext_resource type="Script" uid="uid://dpack0v20g5n0" path="res://lessons_reference/video_16/testmap_2.gd" id="1_ws378"]
+[ext_resource type="Script" uid="uid://in67exvy31px" path="res://lessons_reference/video_16/testmap_4.gd" id="1_ft0sv"]
 [ext_resource type="Texture2D" uid="uid://dxblx82ho8rai" path="res://hazy_nebulae_1.png" id="2_hj2ve"]
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="3_cveu3"]
 [ext_resource type="PackedScene" uid="uid://xtl5acmpaa04" path="res://lessons_reference/video_16/mob/spawner_3d.tscn" id="4_ft0sv"]
@@ -14,6 +14,8 @@
 [ext_resource type="PackedScene" uid="uid://bhbwyw2da3gm3" path="res://level/Easter rabbit.glb" id="12_kq62j"]
 [ext_resource type="PackedScene" uid="uid://b57gaqbqw2guo" path="res://mob/Boss1.tscn" id="13_hj2ve"]
 [ext_resource type="Script" uid="uid://bdmkrk700udsh" path="res://mob/boss_1.gd" id="14_cveu3"]
+[ext_resource type="PackedScene" uid="uid://dsh1ehhe71r11" path="res://esset/char/ddd/diorama_floating_islands__shrine.glb" id="15_ft0sv"]
+[ext_resource type="FontFile" uid="uid://btoewfkfjj1ws" path="res://esset/THSarabunNew.ttf" id="16_3n26m"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_f68rl"]
 panorama = ExtResource("2_hj2ve")
@@ -24,13 +26,13 @@ sky_material = SubResource("PanoramaSkyMaterial_f68rl")
 
 [sub_resource type="Environment" id="Environment_i6xss"]
 background_mode = 2
-background_energy_multiplier = 2.0
+background_energy_multiplier = 7.0
 sky = SubResource("Sky_jjgmc")
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_xiq5r"]
 
 [node name="Game" type="Node3D"]
-script = ExtResource("1_ws378")
+script = ExtResource("1_ft0sv")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_i6xss")
@@ -56,10 +58,10 @@ theme_override_font_sizes/font_size = 60
 text = "Score: 0"
 
 [node name="Player" parent="." instance=ExtResource("3_cveu3")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7, 0.773436, -22.2575)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -26.8691, 5.39886, -7.10342)
 
 [node name="KillPlane" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, -7.95203, -6.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.68577, -7, -38.706, -6.5)
 collision_layer = 0
 collision_mask = 2
 monitorable = false
@@ -69,35 +71,35 @@ transform = Transform3D(7.37955, 0, 0, 0, 1, 0, 0, 0, 7.80773, 37.5414, 0, 16.33
 shape = SubResource("WorldBoundaryShape3D_xiq5r")
 
 [node name="MobSpawner3D" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.35906, 0.5, 11.3959)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.066, 3.6923, 16.9975)
 mob_to_spawn = ExtResource("5_3n26m")
 
 [node name="MobSpawner3D2" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.98672, -0.983209, 23.052)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.8504, 28.3635, 71.2327)
 mob_to_spawn = ExtResource("6_l5m70")
 
 [node name="MobSpawner3D3" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.0305, 0.219442, -7.90302)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.1033, 6.43545, -7.90302)
 mob_to_spawn = ExtResource("6_l5m70")
 
 [node name="MobSpawner3D4" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.0981, 3.14008, 41.3197)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.2537, 24.8909, 85.9351)
 mob_to_spawn = ExtResource("5_3n26m")
 
 [node name="MobSpawner3D5" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.19728, -0.838068, 51.3471)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8248, 2.53757, 21.1504)
 mob_to_spawn = ExtResource("6_l5m70")
 
 [node name="MobSpawner3D7" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 96.7481, 3.14008, 1.19049)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.9461, 28.7645, 1.19049)
 mob_to_spawn = ExtResource("5_3n26m")
 
 [node name="MobSpawner3D8" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.9487, -0.838068, 20.8324)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3658, 4.85538, -30.6399)
 mob_to_spawn = ExtResource("6_l5m70")
 
 [node name="MobSpawner3D6" parent="." instance=ExtResource("4_ft0sv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.9549, -0.562136, 19.3544)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.5364, -24.3364, -77.3551)
 mob_to_spawn = ExtResource("6_l5m70")
 
 [node name="WorldEnvironment2" type="WorldEnvironment" parent="."]
@@ -151,6 +153,7 @@ theme_override_font_sizes/font_size = 100
 text = "Menu"
 
 [node name="modell" type="Node3D" parent="."]
+visible = false
 
 [node name="International Space Station" parent="modell" instance=ExtResource("8_c0hcj")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 8.04709, -5.43557, 16.0962)
@@ -278,6 +281,7 @@ visible = false
 
 [node name="modell2" type="Node3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 37.098, 0, 23.9938)
+visible = false
 
 [node name="International Space Station" parent="modell2" instance=ExtResource("8_c0hcj")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 8.04709, -5.43557, 16.0962)
@@ -410,8 +414,217 @@ transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, -188.064, 4.99065, 111.
 transform = Transform3D(-0.262846, 0, 0.964838, 0, 1, 0, -0.964838, 0, -0.262846, 0.316603, 1.11932, 0)
 
 [node name="robot01" parent="." instance=ExtResource("13_hj2ve")]
-transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 14.6177, 4.66982, -19.0685)
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, -10.4607, 6.34833, -51.0701)
 script = ExtResource("14_cveu3")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("15_ft0sv")]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 82.1229, -34.5143, -12.6403)
+
+[node name="Platform5" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.0141098, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0387608, -1.07215, 0.280595, 0.0256897)
+visible = false
+use_collision = true
+size = Vector3(23.8871, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform7" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.0292984, -0.00100998, 0.000312481, 0.0152978, 0.00194768, -1.36978e-05, -0.00231067, 8.84114e-05, 0.00387144, -0.682002, 0.442723, 0.0393926)
+visible = false
+use_collision = true
+size = Vector3(21.1709, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform8" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.0328459, -0.000238332, 0.000286439, 0.00368296, 0.00218099, -0.000125637, -0.00231067, 8.84114e-05, 0.00387144, -0.898428, 0.372299, 0.0546178)
+visible = false
+use_collision = true
+size = Vector3(7.99269, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform6" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.0174402, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0608507, -0.117684, 0.518132, -0.00809611)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform9" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.00203687, 0, 0, 0, 0.00979357, 0, 0, 0, 0.00738636, -0.00586182, 0.644138, 0.00919501)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform10" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.00113741, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.0136545, 0.631122, 0.158644)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform11" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.000861534, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.114959, 0.631122, 0.18958)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 3.47839)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform12" type="CSGBox3D" parent="Sketchfab_Scene"]
+transform = Transform3D(0.00096185, 0, 0, 0, 0.0175721, 0, 0, 0, 0.00953146, -0.147561, 0.631122, -0.173749)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 5.67377)
+material = ExtResource("9_hx0a7")
+
+[node name="Sketchfab_Scene3" parent="." instance=ExtResource("15_ft0sv")]
+transform = Transform3D(-92.7184, 0, -37.4606, 0, 100, 0, 37.4606, 0, -92.7184, -23.7456, -60.1372, -32.8044)
+
+[node name="Platform5" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.0141098, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0387608, -1.07215, 0.280595, 0.0256897)
+visible = false
+use_collision = true
+size = Vector3(23.8871, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform7" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.0292984, -0.00100998, 0.000312481, 0.0152978, 0.00194768, -1.36978e-05, -0.00231067, 8.84114e-05, 0.00387144, -0.682002, 0.442723, 0.0393926)
+visible = false
+use_collision = true
+size = Vector3(21.1709, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform8" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.0328459, -0.000238332, 0.000286439, 0.00368296, 0.00218099, -0.000125637, -0.00231067, 8.84114e-05, 0.00387144, -0.898428, 0.372299, 0.0546178)
+visible = false
+use_collision = true
+size = Vector3(7.99269, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform6" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.0174402, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0608507, -0.117684, 0.518132, -0.00809611)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform9" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.00203687, 0, 0, 0, 0.00979357, 0, 0, 0, 0.00738636, -0.00586182, 0.644138, 0.00919501)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform10" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.00113741, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.0136545, 0.631122, 0.158644)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform11" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.000861534, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.114959, 0.631122, 0.18958)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 3.47839)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform12" type="CSGBox3D" parent="Sketchfab_Scene3"]
+transform = Transform3D(0.00096185, 0, 0, 0, 0.0175721, 0, 0, 0, 0.00953146, -0.147561, 0.631122, -0.173749)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 5.67377)
+material = ExtResource("9_hx0a7")
+
+[node name="Sketchfab_Scene2" parent="." instance=ExtResource("15_ft0sv")]
+transform = Transform3D(72.6431, 0, -68.724, 0, 100, 0, 68.724, 0, 72.6431, 54.9743, -35.1058, 90.2487)
+
+[node name="Platform5" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.0141098, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0387608, -1.07215, 0.280595, 0.0256897)
+visible = false
+use_collision = true
+size = Vector3(23.8871, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform7" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.0292984, -0.00100998, 0.000312481, 0.0152978, 0.00194768, -1.36978e-05, -0.00231067, 8.84114e-05, 0.00387144, -0.682002, 0.442723, 0.0393926)
+visible = false
+use_collision = true
+size = Vector3(21.1709, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform8" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.0328459, -0.000238332, 0.000286439, 0.00368296, 0.00218099, -0.000125637, -0.00231067, 8.84114e-05, 0.00387144, -0.898428, 0.372299, 0.0546178)
+visible = false
+use_collision = true
+size = Vector3(7.99269, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform6" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.0174402, 0, 0, 0, 0.0193281, 0, 0, 0, 0.0608507, -0.117684, 0.518132, -0.00809611)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform9" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.00203687, 0, 0, 0, 0.00979357, 0, 0, 0, 0.00738636, -0.00586182, 0.644138, 0.00919501)
+visible = false
+use_collision = true
+size = Vector3(30.4663, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform10" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.00113741, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.0136545, 0.631122, 0.158644)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 8)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform11" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.000861534, 0, 0, 0, 0.00365779, 0, 0, 0, 0.007714, -0.114959, 0.631122, 0.18958)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 3.47839)
+material = ExtResource("9_hx0a7")
+
+[node name="Platform12" type="CSGBox3D" parent="Sketchfab_Scene2"]
+transform = Transform3D(0.00096185, 0, 0, 0, 0.0175721, 0, 0, 0, 0.00953146, -0.147561, 0.631122, -0.173749)
+visible = false
+use_collision = true
+size = Vector3(44.7766, 10.4364, 5.67377)
+material = ExtResource("9_hx0a7")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, 0.775578, 51.4001)
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "jump → Space           (ปุ่มเว้นวรรค) ใช้สำหรับ “กระโดด”   
+move_left → A           ใช้สำหรับ “เดินไปทางซ้าย”
+move_right → D        ใช้สำหรับ “เดินไปทางขวา”
+move_forward → W        ใช้สำหรับ “เดินไปข้างหน้า”
+move_back → S       ใช้สำหรับ “เดินถอยหลัง”
+
+shoot → Left Mouse Button (คลิกซ้าย)   ใช้สำหรับ “ยิงกระสุนปกติ” 
+Right Mouse Button (คลิกขวา)          ใช้สำหรับ “ยิงกระสุนพิเศษที่ทรงพลัง” "
+font = ExtResource("16_3n26m")
+font_size = 100
+
+[node name="Label3D2" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, -0.713049, 70.1306)
+double_sided = false
+no_depth_test = true
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "รวบรวมคะแนนที่จะได้จากการฆ่ามอนสเตอร์เพื่อผ่านด่าน"
+font = ExtResource("16_3n26m")
+font_size = 100
+outline_size = 14
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 425.0
+offset_top = 18.0
+offset_right = 1527.0
+offset_bottom = 156.0
+theme_override_font_sizes/font_size = 50
+text = "สะสม 50 แต้มเพื่อผ่านด่านนี้"
 
 [connection signal="body_entered" from="KillPlane" to="." method="_on_kill_plane_body_entered"]
 [connection signal="mob_spawned" from="MobSpawner3D" to="." method="_on_mob_spawner_3d_mob_spawned"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://c51w6mpx7pg3y"]
+[gd_scene load_steps=20 format=3 uid="uid://c51w6mpx7pg3y"]
 
 [ext_resource type="Script" uid="uid://dpack0v20g5n0" path="res://lessons_reference/video_16/testmap_2.gd" id="1_228y5"]
 [ext_resource type="Texture2D" uid="uid://dxblx82ho8rai" path="res://hazy_nebulae_1.png" id="2_pgott"]
@@ -11,7 +11,10 @@
 [ext_resource type="PackedScene" uid="uid://bw4hwvyruch8r" path="res://esset/char/ss2/moon (3).glb" id="11_0q100"]
 [ext_resource type="PackedScene" uid="uid://bhbwyw2da3gm3" path="res://level/Easter rabbit.glb" id="12_bdbmc"]
 [ext_resource type="Script" uid="uid://kx1spi0ucns2" path="res://lessons_reference/video_16/control.gd" id="13_lfwi1"]
+[ext_resource type="PackedScene" uid="uid://b57gaqbqw2guo" path="res://mob/Boss1.tscn" id="13_pgott"]
+[ext_resource type="Script" uid="uid://bdmkrk700udsh" path="res://mob/boss_1.gd" id="14_cyi1s"]
 [ext_resource type="PackedScene" uid="uid://d3xgwied75pol" path="res://esset/char/International Space Station.glb" id="14_pgott"]
+[ext_resource type="FontFile" uid="uid://btoewfkfjj1ws" path="res://esset/THSarabunNew.ttf" id="15_cyi1s"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_f68rl"]
 panorama = ExtResource("2_pgott")
@@ -406,6 +409,54 @@ transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, -188.064, 4.99065, 111.
 
 [node name="Easter rabbit" parent="modell2/Sketchfab_Scene" instance=ExtResource("12_bdbmc")]
 transform = Transform3D(-0.262846, 0, 0.964838, 0, 1, 0, -0.964838, 0, -0.262846, 0.316603, 1.11932, 0)
+
+[node name="robot01" parent="." instance=ExtResource("13_pgott")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 26.4028, 4.42161, 30.3321)
+script = ExtResource("14_cyi1s")
+
+[node name="robot02" parent="." instance=ExtResource("13_pgott")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 15.126, 4.42161, 30.3321)
+script = ExtResource("14_cyi1s")
+
+[node name="robot03" parent="." instance=ExtResource("13_pgott")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 15.126, 4.42161, 43.2865)
+script = ExtResource("14_cyi1s")
+
+[node name="robot04" parent="." instance=ExtResource("13_pgott")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 2.41777, 4.42161, 43.2865)
+script = ExtResource("14_cyi1s")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, 0.775578, 51.4001)
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "jump → Space           (ปุ่มเว้นวรรค) ใช้สำหรับ “กระโดด”   
+move_left → A           ใช้สำหรับ “เดินไปทางซ้าย”
+move_right → D        ใช้สำหรับ “เดินไปทางขวา”
+move_forward → W        ใช้สำหรับ “เดินไปข้างหน้า”
+move_back → S       ใช้สำหรับ “เดินถอยหลัง”
+
+shoot → Left Mouse Button (คลิกซ้าย)   ใช้สำหรับ “ยิงกระสุนปกติ” 
+Right Mouse Button (คลิกขวา)          ใช้สำหรับ “ยิงกระสุนพิเศษที่ทรงพลัง” "
+font = ExtResource("15_cyi1s")
+font_size = 100
+
+[node name="Label3D2" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, -0.713049, 70.1306)
+double_sided = false
+no_depth_test = true
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "รวบรวมคะแนนที่จะได้จากการฆ่ามอนสเตอร์เพื่อผ่านด่าน"
+font = ExtResource("15_cyi1s")
+font_size = 100
+outline_size = 14
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 425.0
+offset_top = 18.0
+offset_right = 1527.0
+offset_bottom = 156.0
+theme_override_font_sizes/font_size = 50
+text = "สะสม 50 แต้มเพื่อผ่านด่านนี้"
 
 [connection signal="body_entered" from="KillPlane" to="." method="_on_kill_plane_body_entered"]
 [connection signal="mob_spawned" from="MobSpawner3D" to="." method="_on_mob_spawner_3d_mob_spawned"]

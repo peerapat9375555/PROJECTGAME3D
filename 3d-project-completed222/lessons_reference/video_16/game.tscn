@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bpqvmc7qt8xut"]
+[gd_scene load_steps=20 format=3 uid="uid://bpqvmc7qt8xut"]
 
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="1_fqdcw"]
 [ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_xym6k"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://bi1hxy3s0hvrf" path="res://Large Building (1).glb" id="10_a3pdk"]
 [ext_resource type="PackedScene" uid="uid://cyoxv3kj3xkkh" path="res://Flying saucer.glb" id="12_f68rl"]
 [ext_resource type="Script" uid="uid://kx1spi0ucns2" path="res://lessons_reference/video_16/control.gd" id="13_ircu3"]
+[ext_resource type="FontFile" uid="uid://btoewfkfjj1ws" path="res://esset/THSarabunNew.ttf" id="15_gh1du"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_f68rl"]
 panorama = ExtResource("2_1p3ei")
@@ -707,6 +708,38 @@ unique_name_in_owner = true
 layout_mode = 2
 theme_override_font_sizes/font_size = 100
 text = "Menu"
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, 0.775578, 51.4001)
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "jump → Space           (ปุ่มเว้นวรรค) ใช้สำหรับ “กระโดด”   
+move_left → A           ใช้สำหรับ “เดินไปทางซ้าย”
+move_right → D        ใช้สำหรับ “เดินไปทางขวา”
+move_forward → W        ใช้สำหรับ “เดินไปข้างหน้า”
+move_back → S       ใช้สำหรับ “เดินถอยหลัง”
+
+shoot → Left Mouse Button (คลิกซ้าย)   ใช้สำหรับ “ยิงกระสุนปกติ” 
+Right Mouse Button (คลิกขวา)          ใช้สำหรับ “ยิงกระสุนพิเศษที่ทรงพลัง” "
+font = ExtResource("15_gh1du")
+font_size = 100
+
+[node name="Label3D2" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, -0.713049, 70.1306)
+double_sided = false
+no_depth_test = true
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "รวบรวมคะแนนที่จะได้จากการฆ่ามอนสเตอร์เพื่อผ่านด่าน"
+font = ExtResource("15_gh1du")
+font_size = 100
+outline_size = 14
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 425.0
+offset_top = 18.0
+offset_right = 1527.0
+offset_bottom = 156.0
+theme_override_font_sizes/font_size = 50
+text = "สะสม 50 แต้มเพื่อผ่านด่านนี้"
 
 [connection signal="body_entered" from="KillPlane" to="." method="_on_kill_plane_body_entered"]
 [connection signal="mob_spawned" from="MobSpawner3D" to="." method="_on_mob_spawner_3d_mob_spawned"]

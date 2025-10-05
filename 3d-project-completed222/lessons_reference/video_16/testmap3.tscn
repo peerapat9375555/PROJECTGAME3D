@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://ucj0ft860dk2"]
+[gd_scene load_steps=18 format=3 uid="uid://ucj0ft860dk2"]
 
 [ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_0kaqy"]
 [ext_resource type="Texture2D" uid="uid://d4xbt08at4n5" path="res://mob/qwantani_dusk_2_puresky_1k (1).hdr" id="2_7aop4"]
@@ -10,6 +10,7 @@
 [ext_resource type="Material" uid="uid://cp4gi8r3s3twb" path="res://lessons_reference/video_16/level/platforms.tres" id="10_8w1h3"]
 [ext_resource type="PackedScene" uid="uid://c2i8s3i2f88xg" path="res://Large Building.glb" id="11_wr76r"]
 [ext_resource type="PackedScene" uid="uid://cn300mvvuokey" path="res://esset/char/ddd/Shipping Container.glb" id="12_7aop4"]
+[ext_resource type="FontFile" uid="uid://btoewfkfjj1ws" path="res://esset/THSarabunNew.ttf" id="13_e77q8"]
 [ext_resource type="Script" uid="uid://kx1spi0ucns2" path="res://lessons_reference/video_16/control.gd" id="14_x2r7k"]
 [ext_resource type="PackedScene" uid="uid://bm5db3iquwn2e" path="res://esset/char/ddd/golden_gate_bridge.glb" id="15_15es5"]
 
@@ -337,6 +338,34 @@ material = ExtResource("10_8w1h3")
 transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
 visible = false
 
+[node name="Shipping Container15" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, 0.588348, -0.0687218, 80.7556)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container15"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container15/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
+[node name="Shipping Container16" parent="Node3D" instance=ExtResource("12_7aop4")]
+transform = Transform3D(-0.596549, 0, 1.90896, 0, 2, 0, -1.90896, 0, -0.596549, -0.990159, -0.0687218, 95.9278)
+
+[node name="Platform4" type="CSGBox3D" parent="Node3D/Shipping Container16"]
+transform = Transform3D(0.123852, 0, 1.49012e-08, 0, 0.111751, 0, -1.49012e-08, 0, 0.401468, 0.0195045, 0.0249994, 0.7202)
+visible = false
+use_collision = true
+size = Vector3(13, 10.4364, 8)
+material = ExtResource("10_8w1h3")
+
+[node name="Large Building" parent="Node3D/Shipping Container16/Platform4" instance=ExtResource("11_wr76r")]
+transform = Transform3D(17.8423, 0, 0, 0, 10, 0, 0, 0, 11.01, 0, -10.3863, 0)
+visible = false
+
 [node name="Sketchfab_Scene2" parent="Node3D" instance=ExtResource("15_15es5")]
 transform = Transform3D(-3.49691e-08, 0, 0.8, 0, 0.8, 0, -0.8, 0, -3.49691e-08, -89.1303, -15.3961, 88.1875)
 
@@ -356,6 +385,38 @@ visible = false
 use_collision = true
 size = Vector3(13, 10.4364, 384.553)
 material = ExtResource("10_8w1h3")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, 0.775578, 51.4001)
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "jump → Space           (ปุ่มเว้นวรรค) ใช้สำหรับ “กระโดด”   
+move_left → A           ใช้สำหรับ “เดินไปทางซ้าย”
+move_right → D        ใช้สำหรับ “เดินไปทางขวา”
+move_forward → W        ใช้สำหรับ “เดินไปข้างหน้า”
+move_back → S       ใช้สำหรับ “เดินถอยหลัง”
+
+shoot → Left Mouse Button (คลิกซ้าย)   ใช้สำหรับ “ยิงกระสุนปกติ” 
+Right Mouse Button (คลิกขวา)          ใช้สำหรับ “ยิงกระสุนพิเศษที่ทรงพลัง” "
+font = ExtResource("13_e77q8")
+font_size = 100
+
+[node name="Label3D2" type="Label3D" parent="."]
+transform = Transform3D(-0.476655, 0, -0.906893, 0, 1.02453, 0, 0.906893, 0, -0.476655, 7.79847, -0.713049, 70.1306)
+double_sided = false
+no_depth_test = true
+modulate = Color(0.853181, 1, 0.339244, 1)
+text = "รวบรวมคะแนนที่จะได้จากการฆ่ามอนสเตอร์เพื่อผ่านด่าน"
+font = ExtResource("13_e77q8")
+font_size = 100
+outline_size = 14
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 425.0
+offset_top = 18.0
+offset_right = 1527.0
+offset_bottom = 156.0
+theme_override_font_sizes/font_size = 50
+text = "สะสม 50 แต้มเพื่อผ่านด่านนี้"
 
 [connection signal="body_entered" from="KillPlane" to="." method="_on_kill_plane_body_entered"]
 [connection signal="mob_spawned" from="MobSpawner3D" to="." method="_on_mob_spawner_3d_mob_spawned"]
