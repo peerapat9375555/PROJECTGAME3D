@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://b57gaqbqw2guo"]
+
+[ext_resource type="Script" uid="uid://cf2bs17a08wde" path="res://mob/robot_01.gd" id="1_1bjfq"]
+[ext_resource type="PackedScene" uid="uid://n4j8f8yqdipn" path="res://mob/bat/Boss1.tscn" id="2_1bjfq"]
+[ext_resource type="AudioStream" uid="uid://bbnq66vaai8n0" path="res://robot-taking-damage-98742.mp3" id="3_ec1e0"]
+[ext_resource type="AudioStream" uid="uid://bjrkmtfjyfwq3" path="res://break_robot-61522.mp3" id="4_hvqrl"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_j81t7"]
+
+[node name="robot01" type="RigidBody3D"]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+script = ExtResource("1_1bjfq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, -1.12677)
+shape = SubResource("SphereShape3D_j81t7")
+
+[node name="Timer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 2.0
+one_shot = true
+
+[node name="robot01" parent="." instance=ExtResource("2_1bjfq")]
+unique_name_in_owner = true
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="HurtSound" type="AudioStreamPlayer3D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("3_ec1e0")
+volume_db = -20.293
+
+[node name="KOSound" type="AudioStreamPlayer3D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("4_hvqrl")
+volume_db = -24.976
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

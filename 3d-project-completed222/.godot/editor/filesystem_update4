@@ -12,3 +12,9 @@ res://lessons_reference/video_16/player/bullet_3_dv_2.gd
 res://scene/main_menu.tscn
 res://lessons_reference/video_16/player/bullet_3d.tscn
 res://lessons_reference/video_16/testmap_2.gd
+res://lessons_reference/video_16/testmap4.tscn
+res://mob/Boss1.tscn
+res://mob/bat/Boss1.tscn
+res://mob/boss_1.gd
+res://mob/bat/robot_01.tscn
+res://mob/bat/boss_1.gd

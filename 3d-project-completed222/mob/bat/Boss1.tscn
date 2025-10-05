@@ -1,0 +1,179 @@
+[gd_scene load_steps=13 format=3 uid="uid://n4j8f8yqdipn"]
+
+[ext_resource type="PackedScene" uid="uid://ce58erj8mkir3" path="res://mob/bat/robot01.glb" id="1_463kc"]
+[ext_resource type="Script" uid="uid://ds3cen6w2ipvt" path="res://mob/bat/boss_1.gd" id="2_463kc"]
+[ext_resource type="Material" uid="uid://dfrlbvquw6i8e" path="res://mob/bat/robot01_material_3d.tres" id="3_wi4te"]
+
+[sub_resource type="Animation" id="Animation_3c2b0"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("world/geometry_0:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("world/geometry_0:surface_material_override/0:albedo_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("world/geometry_0:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("world:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(5, 5, 5)]
+}
+
+[sub_resource type="Animation" id="Animation_m15h1"]
+resource_name = "wa"
+length = 0.55
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("world/geometry_0:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.133333, 0.266667, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.122934, 0), Vector3(0, 0, 0), Vector3(0, 0.133351, 0), Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("world:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.55),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(5, 5, 5), Vector3(5, 5, 5)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("world/geometry_0:surface_material_override/0:albedo_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.55),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0.105598, 0.522405, 0.88804, 1), Color(0.0931373, 0.584104, 0.595927, 1), Color(0.0116192, 0.617565, 0.27215, 1), Color(0.545383, 0.533457, 5.77569e-07, 1), Color(0.78914, 0.383515, 0.01338, 1), Color(0.928555, 0.115996, 0.329567, 1), Color(0.843204, 0.079703, 0.764583, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m15h1"]
+_data = {
+&"RESET": SubResource("Animation_3c2b0"),
+&"wa": SubResource("Animation_m15h1")
+}
+
+[sub_resource type="Animation" id="Animation_0xrd7"]
+length = 0.28
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("world/geometry_0:surface_material_override/0:albedo_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.133333, 0.266667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("world/geometry_0:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.133333, 0.266667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(1, 1, 1), Vector3(1.3, 1.3, 1.3), Vector3(1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_c5ul6"]
+_data = {
+&"hurt": SubResource("Animation_0xrd7")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_k4vyl"]
+animation = &"custom/hurt"
+
+[sub_resource type="AnimationNodeOneShot" id="AnimationNodeOneShot_3c2b0"]
+mix_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_bdqv7"]
+animation = &"wa"
+
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_wcaun"]
+nodes/Hurt/node = SubResource("AnimationNodeAnimation_k4vyl")
+nodes/Hurt/position = Vector2(0, 240)
+nodes/OneShot/node = SubResource("AnimationNodeOneShot_3c2b0")
+nodes/OneShot/position = Vector2(340, 60)
+nodes/output/position = Vector2(700, 100)
+nodes/walk/node = SubResource("AnimationNodeAnimation_bdqv7")
+nodes/walk/position = Vector2(0, 60)
+node_connections = [&"OneShot", 0, &"walk", &"OneShot", 1, &"Hurt", &"output", 0, &"OneShot"]
+
+[node name="robot01" instance=ExtResource("1_463kc")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+script = ExtResource("2_463kc")
+
+[node name="world" parent="." index="0"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+
+[node name="geometry_0" parent="world" index="0"]
+surface_material_override/0 = ExtResource("3_wi4te")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1"]
+libraries = {
+&"": SubResource("AnimationLibrary_m15h1"),
+&"custom": SubResource("AnimationLibrary_c5ul6")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="." index="2"]
+unique_name_in_owner = true
+root_node = NodePath("%AnimationTree/..")
+tree_root = SubResource("AnimationNodeBlendTree_wcaun")
+anim_player = NodePath("../AnimationPlayer")
+parameters/OneShot/active = false
+parameters/OneShot/internal_active = false
+parameters/OneShot/request = 0
