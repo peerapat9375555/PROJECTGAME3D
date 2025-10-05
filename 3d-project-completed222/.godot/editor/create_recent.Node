@@ -1,4 +1,5 @@
 Label
+VideoStreamPlayer
 Label3D
 Node3D
 Control
@@ -11,4 +12,3 @@ TextureRect
 MarginContainer
 Node2D
 AudioStreamPlayer3D
-Timer

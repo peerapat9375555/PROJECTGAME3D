@@ -1,6 +1,8 @@
 extends Control
 
-@export var game_scene_path: String = "res://lessons_reference/video_16/testmap40.tscn"
+# 🔹 พาธซีนที่มีวีดีโอ (Cutscene Scene)
+@export var cutscene_path: String = "res://lessons_reference/video_16/cutscene.tscn"
+
 @onready var btn_start: Button = $BtnStart
 
 func _ready() -> void:
@@ -9,4 +11,5 @@ func _ready() -> void:
 	btn_start.pressed.connect(_on_start_pressed)
 
 func _on_start_pressed() -> void:
-	get_tree().change_scene_to_file(game_scene_path)
+	# 🔸 เมื่อกดปุ่ม Start จะไปที่ฉากวีดีโอก่อน
+	get_tree().change_scene_to_file(cutscene_path)

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4d2m5mngh4rm"]
+
+[ext_resource type="Script" uid="uid://dehctsl3hoq6d" path="res://control.gd" id="1_drs7p"]
+[ext_resource type="VideoStream" uid="uid://oe24dtbxb2o3" path="res://scene/1005_2_.ogv" id="2_broah"]
+[ext_resource type="FontFile" uid="uid://btoewfkfjj1ws" path="res://esset/THSarabunNew.ttf" id="3_broah"]
+
+[node name="Cutscene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_drs7p")
+
+[node name="Video" type="VideoStreamPlayer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 44.0
+offset_bottom = 43.0
+scale = Vector2(42.4, 21.08)
+stream = ExtResource("2_broah")
+autoplay = true
+expand = true
+
+[node name="SkipHint" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("3_broah")
+theme_override_font_sizes/font_size = 50
+text = "กด esc เพื่อ ข้าม"

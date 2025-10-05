@@ -12,3 +12,6 @@ res://lessons_reference/video_16/testmap_2.gd
 res://lessons_reference/video_16/game.gd
 res://lessons_reference/video_16/testmap_4.gd
 res://scene/main_menu.gd
+res://scene/main_menu.tscn
+res://control.gd
+res://scene/cutscene.tscn

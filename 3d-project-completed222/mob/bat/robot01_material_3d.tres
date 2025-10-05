@@ -6,4 +6,5 @@
 resource_local_to_scene = true
 resource_name = "material_0"
 shading_mode = 0
+albedo_color = Color(0.599847, 0.499954, 0.00299001, 1)
 albedo_texture = ExtResource("1_fc56d")
